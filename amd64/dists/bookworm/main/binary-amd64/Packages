@@ -1,0 +1,3064 @@
+Package: alsa-topology-conf
+Architecture: all
+Version: 1.2.5.1-2
+Multi-Arch: foreign
+Priority: optional
+Section: libs
+Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
+Installed-Size: 420
+Breaks: libasound2-data (<< 1.2.1)
+Replaces: libasound2-data (<< 1.2.1)
+Enhances: libasound2-data
+Filename: pool/main/a/alsa-topology-conf/alsa-topology-conf_1.2.5.1-2_all.deb
+Size: 15172
+MD5sum: 19a387e4052e248819a712ce41122fe5
+SHA1: 07150533b445164d6575e2b5e5bad673a47d3881
+SHA256: 1e4503ae66ad9cbe2a024ec403cb453af07ff1d07a62e795aab24539a307ad8a
+SHA512: 928929d2e4571de16c0fde7d19b5b70db6e522dc0fbf199c7577b17f333480cedc12ddd8345588ef3089e9abfc80c3d92a80b9be10c7c18750bb769cfed692c5
+Homepage: https://www.alsa-project.org/
+Description: ALSA topology configuration files
+ This package contains ALSA topology configuration files that can be used
+ by libasound2 for specific audio hardware.
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+
+Package: libbrotli1
+Architecture: amd64
+Version: 1.0.9-2+b6
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: brotli (1.0.9-2)
+Maintainer: Tomasz Buchert <tomasz@debian.org>
+Installed-Size: 783
+Depends: libc6 (>= 2.29)
+Filename: pool/main/b/brotli/libbrotli1_1.0.9-2+b6_amd64.deb
+Size: 275248
+MD5sum: 58aff9bd35bab67549bdc84eb7edffcf
+SHA1: d5b10996485463461f53205e6d014e816eae2405
+SHA256: 563b4caec1aa5e876bd3355b36e7a38e1484baf5a293b48d1e8bd22db786e4d7
+SHA512: 1b3098960c2b1ffca481b0f62fafd047a1ff3244bfe7b055c020ef5cbbc24c8e4cb8d2bf176a14d5aae11789c64463c484c6de9ac25516b0d161937444bc8dac
+Homepage: https://github.com/google/brotli
+Description: library implementing brotli encoder and decoder (shared libraries)
+ Brotli is a generic-purpose lossless compression algorithm
+ that compresses data using a combination of a modern variant
+ of the LZ77 algorithm, Huffman coding and 2nd order context modeling,
+ with a compression ratio comparable to the best currently available
+ general-purpose compression methods. It is similar in speed with
+ deflate but offers more dense compression.
+ .
+ This package installs shared libraries.
+
+Package: busybox
+Architecture: amd64
+Version: 1:1.35.0-4+b3
+Priority: optional
+Section: utils
+Source: busybox (1:1.35.0-4)
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 817
+Depends: libc6 (>= 2.34)
+Conflicts: busybox-static
+Replaces: busybox-static
+Filename: pool/main/b/busybox/busybox_1%3a1.35.0-4+b3_amd64.deb
+Size: 451800
+MD5sum: 1bacaf7fb52b761e7bc2ffdca061db53
+SHA1: c4a9d075cb83baeef1c9ddf1f74e86fd42f4a8a2
+SHA256: 28249bea5fedba0efa6186b7c42cf3cb57ff1c1fbd850fc5a2fbf15c3c085bd6
+SHA512: deb4d1b1d5112fdb0a9762e878cfe111462f8b8694bde30a93474e70c89452be8a12af65317c9b2768cb2a913788cbb9d1b30db9e10d3e209ebb9f69c1c730b4
+Homepage: http://www.busybox.net
+Description: Tiny utilities for small and embedded systems
+ BusyBox combines tiny versions of many common UNIX utilities into a single
+ small executable. It provides minimalist replacements for the most common
+ utilities you would usually find on your desktop system (i.e., ls, cp, mv,
+ mount, tar, etc.). The utilities in BusyBox generally have fewer options than
+ their full-featured GNU cousins; however, the options that are included
+ provide the expected functionality and behave very much like their GNU
+ counterparts.
+ .
+ This package installs the BusyBox binary but does not install
+ symlinks for any of the supported utilities. Some of the utilities
+ can be used in the system by installing the busybox-syslogd,
+ busybox-udhcpc or busybox-udhcpd packages.
+
+Package: libcairo2
+Architecture: amd64
+Version: 1.16.0-7
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: cairo
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1307
+Depends: libc6 (>= 2.35), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libpixman-1-0 (>= 0.30.0), libpng16-16 (>= 1.6.2-1), libx11-6, libxcb-render0, libxcb-shm0, libxcb1 (>= 1.6), libxext6, libxrender1, zlib1g (>= 1:1.1.4)
+Breaks: libwebkit2gtk-3.0-25 (<< 2.4.5-2~), libwebkitgtk-1.0-0 (<< 2.4.5-2~), libwebkitgtk-3.0-0 (<< 2.4.5-2~), weston (<< 1.5.0-3~)
+Filename: pool/main/c/cairo/libcairo2_1.16.0-7_amd64.deb
+Size: 574676
+MD5sum: bc4ee8d605f36a5dd1cc307bf28a9fa8
+SHA1: 39a1253befcbe0133af507b5fc953494f60ac814
+SHA256: 927fa059f8b5791d0cd744d4e3a8c57fa872ef849ce14434dc2222ac8a076a69
+SHA512: 806f8542f8f207e8310f02412988c83d2b58cc4319bd0b0e01922b9270b52072ff7a1a5d20b98383654299a5dacb0f45c0a551bc5b3117485a4e326c75cffd7a
+Homepage: https://cairographics.org/
+Description: Cairo 2D vector graphics library
+ Cairo is a multi-platform library providing anti-aliased
+ vector-based rendering for multiple target backends. Paths consist
+ of line segments and cubic splines and can be rendered at any width
+ with various join and cap styles. All colors may be specified with
+ optional translucence (opacity/alpha) and combined using the
+ extended Porter/Duff compositing algebra as found in the X Render
+ Extension.
+ .
+ Cairo exports a stateful rendering API similar in spirit to the path
+ construction, text, and painting operators of PostScript, (with the
+ significant addition of translucence in the imaging model). When
+ complete, the API is intended to support the complete imaging model of
+ PDF 1.4.
+ .
+ This package contains the shared libraries.
+
+Package: libcfitsio10
+Architecture: amd64
+Version: 4.2.0-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: cfitsio
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Installed-Size: 1698
+Depends: libbz2-1.0, libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), zlib1g (>= 1:1.1.4)
+Filename: pool/main/c/cfitsio/libcfitsio10_4.2.0-3_amd64.deb
+Size: 563236
+MD5sum: c9e785735af14b6a90fc80990a634eb2
+SHA1: c49e49c82f62f01f3373a5cbe0062e6dfa859512
+SHA256: 1fd66f2dd32991902c4e728493e516ff4c9a7894cdd1ce7678eb444740eab54f
+SHA512: 7fcfd798d8ddf8c1b936abc1a7920c9e2e621743b8957ad509aa14a266910b6f3b4879600515bfe28bcf47b58d16d9bf1291372dfaf1955b3dfd431c969b2d0a
+Homepage: https://heasarc.gsfc.nasa.gov/fitsio/fitsio.html
+Description: shared library for I/O with FITS format data files
+ FITS (Flexible Image Transport System) is a data format most used in
+ astronomy. cfitsio is a library of ANSI C routines for reading and
+ writing FITS format data files.  A set of Fortran-callable wrapper
+ routines are also included for the convenience of Fortran
+ programmers.
+ .
+ This package contains what you need to run programs that use this
+ library.
+
+Package: console-setup-linux
+Architecture: all
+Version: 1.221
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: console-setup
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 2192
+Provides: console-terminus
+Depends: kbd (>= 0.99-12) | console-tools (>= 1:0.2.3-16), keyboard-configuration (= 1.221), init-system-helpers (>= 1.29~) | initscripts
+Suggests: console-setup
+Conflicts: console-setup-freebsd
+Breaks: console-cyrillic (<= 0.9-11), console-setup (<< 1.71), console-terminus
+Replaces: console-setup (<< 1.71), console-terminus
+Filename: pool/main/c/console-setup/console-setup-linux_1.221_all.deb
+Size: 1882036
+MD5sum: a98b4b6035387b67ad6e7e67e1e288de
+SHA1: b248864c426404d6d54e03fdadb75d550e25e24d
+SHA256: 65fac4777b0d36e48d90c577ba296c9ceeb051210aa1bf405925e2bf6bc6fecd
+SHA512: 7f51d4d6d07b0e30544d1556be199ff2611bb00bee78df5a4d44f013c136ed93094fa5e0b3f7ff04bbc781255e63a255a6748fe1d90614761fe1fba107acf553
+Description: Linux specific part of console-setup
+ This package includes fonts in psf format and definitions of various
+ 8-bit charmaps.
+
+Package: console-setup
+Architecture: all
+Version: 1.221
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 428
+Pre-Depends: debconf | debconf-2.0
+Depends: console-setup-linux | console-setup-freebsd | hurd, xkb-data (>= 0.9), keyboard-configuration (= 1.221), debconf (>= 0.5) | debconf-2.0
+Suggests: lsb-base (>= 3.0-6), locales
+Conflicts: console-setup-mini
+Breaks: lsb (<< 2.0-6), lsb-base (<< 3.0-6), lsb-core (<< 2.0-6)
+Filename: pool/main/c/console-setup/console-setup_1.221_all.deb
+Size: 101732
+MD5sum: 41bad81d226246f73cc4b9e20c303d25
+SHA1: 48ab6496b31eaab9fd0c86cd5c9d87e837ce6b57
+SHA256: 2041b0f9c6b2d3dc2d0ca458854bdb1fc392f39ec1422c1580f2176d3378ce42
+SHA512: 161c2b5643a5584511166587c8907519b89e5d48a0e85b3b11f792abf820ba8d6a530d8c4429883659456510524398d76e4b8261bd2efc0103dc1feb78d0a57a
+Description: console font and keymap setup program
+ This package provides the console with the same keyboard
+ configuration scheme as the X Window System. As a result, there is no
+ need to duplicate or change the keyboard files just to make simple
+ customizations such as the use of dead keys, the key functioning as
+ AltGr or Compose key, the key(s) to switch between Latin and
+ non-Latin mode, etc.
+ .
+ The package also installs console fonts supporting many of the
+ world's languages.  It provides an unified set of font faces - the
+ classic VGA, the simplistic Fixed, and the cleaned Terminus,
+ TerminusBold and TerminusBoldVGA.
+
+Package: keyboard-configuration
+Architecture: all
+Version: 1.221
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: console-setup
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 2798
+Pre-Depends: debconf | debconf-2.0
+Depends: debconf (>= 0.5) | debconf-2.0, liblocale-gettext-perl, xkb-data (>= 2.35.1~), xkb-data (<< 2.35.1A)
+Breaks: console-setup (<< 1.71), console-setup-mini (<< 1.47)
+Replaces: console-setup (<< 1.47), console-setup-mini (<< 1.47)
+Filename: pool/main/c/console-setup/keyboard-configuration_1.221_all.deb
+Size: 416016
+MD5sum: 28c21629d2eb7b288289abcbe2cba9b4
+SHA1: abbdfac1f941e55f6f8c38ef1eeb541935088aec
+SHA256: d410789d702346e3fee560d1a32ecc850dcbba343ac3983ed713feb0873a8d4a
+SHA512: 9cdca24a53908b9ad0c442032845fdf6de8c192990088c541e508df08ccf6111896dce3e7bdcd3b3568cfa2aa4ea20ca7e1b9a111be17c40bbafa0dc60f6f18c
+Description: system-wide keyboard preferences
+ This package maintains the keyboard preferences in
+ /etc/default/keyboard.  Other packages can use the information
+ provided by this package in order to configure the keyboard on the
+ console or in X Window.
+
+Package: cryptsetup-bin
+Architecture: amd64
+Version: 2:2.6.1-4~deb12u2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: cryptsetup
+Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>
+Installed-Size: 2328
+Depends: libblkid1 (>= 2.24.2), libc6 (>= 2.34), libcryptsetup12 (>= 2:2.6), libpopt0 (>= 1.14), libuuid1 (>= 2.16)
+Filename: pool/main/c/cryptsetup/cryptsetup-bin_2%3a2.6.1-4~deb12u2_amd64.deb
+Size: 473680
+MD5sum: e2588b84c80881a202cfeba3173a2a00
+SHA1: 7b2ed8656b0bfcfeb189c9e12655900fe94f5a6b
+SHA256: ac25a10b8c7a5fbd4ffe64a830edd24a7e04b3416914bbb096c21e92e15a65d2
+SHA512: f6a919c72e2f4cfa5d8529a4501775b07833d4fd30f0bb0ea8ce69484256f35d833f66c23c546c3567958e9e29d503bb08a61362207599af91c8b1b1a7edb3ce
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+Description: disk encryption support - command line tools
+ Cryptsetup provides an interface for configuring encryption on block
+ devices (such as /home or swap partitions), using the Linux kernel
+ device mapper target dm-crypt. It features integrated Linux Unified Key
+ Setup (LUKS) support.
+ .
+ This package provides the cryptsetup, integritysetup and veritysetup
+ utilities.
+
+Package: cryptsetup-initramfs
+Architecture: all
+Version: 2:2.6.1-4~deb12u2
+Priority: optional
+Section: admin
+Source: cryptsetup
+Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>
+Installed-Size: 107
+Depends: busybox | busybox-static, cryptsetup (>= 2:2.6.1-4~deb12u2), initramfs-tools (>= 0.137) | linux-initramfs-tool, debconf (>= 0.5) | debconf-2.0
+Recommends: console-setup, kbd
+Conflicts: lvm2 (<< 2.03.15-1)
+Breaks: cryptsetup (<< 2:2.0.3-1)
+Replaces: cryptsetup (<< 2:2.0.3-1)
+Filename: pool/main/c/cryptsetup/cryptsetup-initramfs_2%3a2.6.1-4~deb12u2_all.deb
+Size: 35648
+MD5sum: 0b9c2b3a3f9744266d6cc07c16514870
+SHA1: 4fea3be1b833b3e94c5636f6b0f6539de39dc3ee
+SHA256: 721c8c77529f71f806e467e6e5aed05d9e98f8b0439782574d728288a4a81e58
+SHA512: fcba80ec9717b9d755a88de58aa77bbb297cbe3e25dc5a2a59de733e849d4cde9934aee3c279dddf15d5abd4e3536cd4bd447631a1039811e4e8e153d16b4cb0
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+Description: disk encryption support - initramfs integration
+ Cryptsetup provides an interface for configuring encryption on block
+ devices (such as /home or swap partitions), using the Linux kernel
+ device mapper target dm-crypt. It features integrated Linux Unified Key
+ Setup (LUKS) support.
+ .
+ This package provides initramfs integration for cryptsetup.
+
+Package: cryptsetup
+Architecture: amd64
+Version: 2:2.6.1-4~deb12u2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>
+Installed-Size: 410
+Depends: cryptsetup-bin (>= 2:1.6.0), dmsetup, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.34)
+Suggests: cryptsetup-initramfs, dosfstools, keyutils, liblocale-gettext-perl
+Breaks: cryptsetup-run (<< 2:2.1.0-6)
+Replaces: cryptsetup-run (<< 2:2.1.0-6)
+Filename: pool/main/c/cryptsetup/cryptsetup_2%3a2.6.1-4~deb12u2_amd64.deb
+Size: 212844
+MD5sum: 0f99bfe47166e9c0039b93de78192a1c
+SHA1: 5dfd6ee6e7bfc81dfb4b9794d116c9f0ac11a802
+SHA256: bef82c749c2f03d1f8c51d51090074b87d06852874dd35b3a237cd889bce0371
+SHA512: ad73980a717fe9f65a629ae17614bba2ecd0dfe333385a661b7fce92ebc29db967b248e6f0219a43231ccd3ed997acfea40cdccbce9e084091f6f02e75f7bc56
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+Description: disk encryption support - startup scripts
+ Cryptsetup provides an interface for configuring encryption on block
+ devices (such as /home or swap partitions), using the Linux kernel
+ device mapper target dm-crypt. It features integrated Linux Unified Key
+ Setup (LUKS) support.
+ .
+ Cryptsetup is backwards compatible with the on-disk format of cryptoloop,
+ but also supports more secure formats. This package includes support for
+ automatically configuring encrypted devices at boot time via the config
+ file /etc/crypttab. Additional features are cryptoroot support through
+ initramfs-tools and several supported ways to read a passphrase or key.
+ .
+ This package provides the cryptdisks_start and _stop wrappers, as well as
+ luksformat.
+
+Package: libcurl3-gnutls
+Architecture: amd64
+Version: 7.88.1-10+deb12u5
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: curl
+Maintainer: Alessandro Ghedini <ghedo@debian.org>
+Installed-Size: 827
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.34), libgnutls30 (>= 3.7.5), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 0.6), libldap-2.5-0 (>= 2.5.4), libnettle8, libnghttp2-14 (>= 1.50.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.3), libssh2-1 (>= 1.7.0), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Recommends: ca-certificates
+Filename: pool/main/c/curl/libcurl3-gnutls_7.88.1-10+deb12u5_amd64.deb
+Size: 384676
+MD5sum: eb875aaad97bfb68279c7ee0fc587c74
+SHA1: be158d8c20681672194d62fbcdede99cfdb2a4a3
+SHA256: 9751239757dcc218a3cd5a5772070e33d86a8a15506fe5af8a47793d61fa2abc
+SHA512: 214efae83c6d2b4358805b6b7c3e0c4e516f17dc77387bc610f4ea6751cff0f79be4f1bbab6cdeaef135c977e003697a7bb96147aca6ca57e85b66e48a5bd00d
+Homepage: https://curl.se/
+Description: easy-to-use client-side URL transfer library (GnuTLS flavour)
+ libcurl is an easy-to-use client-side URL transfer library, supporting DICT,
+ FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S,
+ RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.
+ .
+ libcurl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP
+ form based upload, proxies, cookies, user+password authentication (Basic,
+ Digest, NTLM, Negotiate, Kerberos), file transfer resume, http proxy tunneling
+ and more!
+ .
+ libcurl is free, thread-safe, IPv6 compatible, feature rich, well supported,
+ fast, thoroughly documented and is already used by many known, big and
+ successful companies and numerous applications.
+ .
+ SSL support is provided by GnuTLS.
+
+Package: libsasl2-2
+Architecture: amd64
+Version: 2.1.28+dfsg-10
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: cyrus-sasl2
+Maintainer: Debian Cyrus Team <team+cyrus@tracker.debian.org>
+Installed-Size: 167
+Depends: libsasl2-modules-db (>= 2.1.28+dfsg-10), libc6 (>= 2.34)
+Recommends: libsasl2-modules (>= 2.1.28+dfsg-10)
+Replaces: libsasl2
+Filename: pool/main/c/cyrus-sasl2/libsasl2-2_2.1.28+dfsg-10_amd64.deb
+Size: 59712
+MD5sum: d92a2ea204e0d33bda1eda4f58531ff3
+SHA1: ae9c477433c2dd95384b5712c01aed7a26b5e17c
+SHA256: 11ee190ad39f8d7af441d2c8347388b9449434c73acc67b4b372445ac4152efa
+SHA512: 7f79559cd86372ee8966ab0141a4381b15ad6a5fc2ec0243124b0b98c50e92d53b3749cece03175e8bdf5f9bf619aa1806eb523d604b169ed1133d763dfbaba4
+Homepage: https://www.cyrusimap.org/sasl/
+Description: Cyrus SASL - authentication abstraction library
+ This is the Cyrus SASL API implementation, version 2.1.
+ .
+ SASL is the Simple Authentication and Security Layer, a method for
+ adding authentication support to connection-based protocols. To use
+ SASL, a protocol includes a command for identifying and
+ authenticating a user to a server and for optionally negotiating
+ protection of subsequent protocol interactions. If its use is
+ negotiated, a security layer is inserted between the protocol and the
+ connection. See RFC 2222 for more information.
+ .
+ Any of: ANONYMOUS, SCRAM, CRAM-MD5, DIGEST-MD5, GSSAPI (MIT or Heimdal
+ Kerberos 5), NTLM, OTP, PLAIN, or LOGIN can be used.
+
+Package: libsasl2-modules-db
+Architecture: amd64
+Version: 2.1.28+dfsg-10
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: cyrus-sasl2
+Maintainer: Debian Cyrus Team <team+cyrus@tracker.debian.org>
+Installed-Size: 77
+Depends: libc6 (>= 2.14), libdb5.3
+Filename: pool/main/c/cyrus-sasl2/libsasl2-modules-db_2.1.28+dfsg-10_amd64.deb
+Size: 20336
+MD5sum: a9a14ac3c9e9548db78f5ad163390aa0
+SHA1: 12135c10b29914199bdee20942cd2f90bebdb5b4
+SHA256: 3ac4fd6cbe3b3b06e68d24b931bf3eb9385b42f15604a37ed25310e948ca0ee6
+SHA512: 5d0591dda2caa1dc6dca7ef90705a1d2beb579bff4618f2a2f63f3fde0cd69e33bb608b1536f82bd3cdd3513b9dc57b556ea1f4c2d592aea50866036456a7c5a
+Homepage: https://www.cyrusimap.org/sasl/
+Description: Cyrus SASL - pluggable authentication modules (DB)
+ This is the Cyrus SASL API implementation, version 2.1. See package
+ libsasl2-2 and RFC 2222 for more information.
+ .
+ This package provides the DB plugin, which supports Berkeley DB lookups.
+
+Package: dfu-util
+Architecture: amd64
+Version: 0.11-1
+Priority: optional
+Section: electronics
+Maintainer: Tormod Volden <debian.tormod@gmail.com>
+Installed-Size: 146
+Depends: libc6 (>= 2.14), libusb-1.0-0 (>= 2:1.0.22), python3
+Filename: pool/main/d/dfu-util/dfu-util_0.11-1_amd64.deb
+Size: 42620
+MD5sum: 3e7fb2dbbe1367b3d713d4546f3fc5ef
+SHA1: b98ee47cf67b41ebae8130ad4716369ab1d75280
+SHA256: 534bd27914f4b957f8533e4b8921736d81844de927822f4327e3a9c615bd3ee8
+SHA512: 2ce0cf2c4c0e49cede6c9acd20ae6a7841a76ea3c6e512d773bf48fb7ee5685eee9f5c3c7f368ea9dcb9e809d45d2f0c49a6bd8c791d3733798dd7544fd21bd3
+Homepage: http://dfu-util.sourceforge.net
+Description: Device firmware update (DFU) USB programmer
+ dfu-util is a program that implements the host (PC) side of the USB
+ DFU 1.0 and 1.1 (Universal Serial Bus Device Firmware Upgrade) protocol.
+ .
+ DFU is intended to download and upload firmware to devices connected over
+ USB. It ranges from small devices like micro-controller boards up to mobile
+ phones. With dfu-util you are able to download firmware to your device or
+ upload firmware from it.
+
+Package: efibootmgr
+Architecture: amd64
+Version: 17-2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 87
+Depends: libc6 (>= 2.34), libefiboot1 (>= 37), libefivar1 (>= 37), libpopt0 (>= 1.14)
+Filename: pool/main/e/efibootmgr/efibootmgr_17-2_amd64.deb
+Size: 27572
+MD5sum: 3181a5bb6be70765d00fe6c084ac47d3
+SHA1: f78fe3cb24629d9d843ada2d89b538b997378de8
+SHA256: 8eb29bcc1bfd4df25b2817915a056ac81812a418867e7737575b6eecdf58265f
+SHA512: ba901eddb9653a7a1951a72926e74294a7b6f3fa13ad827b9ba0af4e22b351e28560ca2f0f92a72cea5dff0220c8ceebc2610b24204ce9b99bdae1e0aff6d963
+Description: Interact with the EFI Boot Manager
+ This is a Linux user-space application to modify the Intel Extensible
+ Firmware Interface (EFI) Boot Manager configuration. This application can
+ create and destroy boot entries, change the boot order, change the next
+ running boot option, and more.
+ .
+ Additional information about (U)EFI can be found at http://www.uefi.org/.
+ .
+ Note: efibootmgr requires that the kernel module efivars be loaded prior
+ to use. 'modprobe efivars' should do the trick if it does not
+ automatically load.
+
+Package: libefiboot1
+Architecture: amd64
+Version: 37-6
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: efivar
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 117
+Depends: libc6 (>= 2.14), libefivar1 (>= 37)
+Breaks: efibootmgr (<< 0.12-2)
+Filename: pool/main/e/efivar/libefiboot1_37-6_amd64.deb
+Size: 44104
+MD5sum: 952fd89f8c787c90aacca69a19491e9a
+SHA1: 6ad69d3804888c86693b2f2cdf21743ed489e75a
+SHA256: ca79e849a65dae2ec2eaefd9e7c1dff717464a7cf029e1d109cbea7d43ef9a48
+SHA512: 36b90a75837fa58575acc202542f2d7c725ac043fa2e16692b2b2f82b794b9912449925d8d81ed40da5f7de1caab58796ad49d4f01c3c581996d49e817a07480
+Homepage: https://github.com/rhinstaller/efivar
+Description: Library to manage UEFI variables
+ Library to allow for the manipulation of UEFI variables related to booting.
+
+Package: libefivar1
+Architecture: amd64
+Version: 37-6
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: efivar
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 170
+Depends: libc6 (>= 2.14)
+Breaks: efibootmgr (<< 0.12-2)
+Filename: pool/main/e/efivar/libefivar1_37-6_amd64.deb
+Size: 50024
+MD5sum: 3dae8980f8b115eb820909f5b0cc5314
+SHA1: 5950f374c6439d4d48b27f49ad7ab2f302252e4d
+SHA256: 2abb5ccbd287049da2eca79c34ef9d68923ae6c73366ce7c7d65f084588dc2c2
+SHA512: ed1e0734cf44668fca34b24385662a5cfe486c8092c047e0f7cf69add603c49ef3046f7ec42fb8be203c1659d2b667e96661ead71c6dda1e88e8b1036c180193
+Homepage: https://github.com/rhinstaller/efivar
+Description: Library to manage UEFI variables
+ Library to allow for the simple manipulation of UEFI variables.
+
+Package: libexpat1
+Architecture: amd64
+Version: 2.5.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: expat
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 387
+Depends: libc6 (>= 2.25)
+Filename: pool/main/e/expat/libexpat1_2.5.0-1_amd64.deb
+Size: 99340
+MD5sum: 90141378f5741f454e8494bc69febfb5
+SHA1: 0ddbb0ff909c123824e1c2d2ef47ed816bc2f49c
+SHA256: fe36a7f35361fc40d0057ef447a7302fd41d51740d51c98fb3870bbed5b96e56
+SHA512: 0f3cf0acfdbdf0bff796710bb89c6b35237b6b50e672aaed4d3363b70e4b2e070d6e27df914f4695e1ff8783ea5b0e67dab0244d829bf6a9b6e5c78231048e15
+Homepage: https://libexpat.github.io/
+Description: XML parsing C library - runtime library
+ This package contains the runtime, shared library of expat, the C
+ library for parsing XML. Expat is a stream-oriented parser in
+ which an application registers handlers for things the parser
+ might find in the XML document (like start tags).
+
+Package: libfftw3-double3
+Architecture: amd64
+Version: 3.3.10-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: fftw3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 2259
+Depends: libc6 (>= 2.34), libgomp1 (>= 4.9)
+Suggests: libfftw3-bin, libfftw3-dev
+Filename: pool/main/f/fftw3/libfftw3-double3_3.3.10-1_amd64.deb
+Size: 775768
+MD5sum: df9bbc7b8fbdbfcd6d006feb0018e46d
+SHA1: 44b385f9702021923289a14059fddb86d8072c35
+SHA256: e5d8c553fa9b5856436dbea6b7fb6845343d615185c8bb3ef5206cfee68c5734
+SHA512: 90e22822eb6b3fdcc717de4f4d1e4979ce0e366d0c397916af888189b4b08e73f390be0478a16845b768511541592f441e13f7746c6c4b741d142fbb80cd0623
+Homepage: https://fftw.org
+Description: Library for computing Fast Fourier Transforms - Double precision
+ The FFTW library computes Fast Fourier Transforms (FFT) in one or more
+ dimensions. It is extremely fast. This package contains the shared library
+ for double precision transforms.
+ .
+ To get the static library and the header files, you need to install
+ libfftw3-dev. For documentation, see libfftw3-doc.
+
+Package: firmware-linux-free
+Architecture: all
+Version: 20200122-1
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: firmware-free
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 85
+Suggests: initramfs-tools
+Filename: pool/main/f/firmware-free/firmware-linux-free_20200122-1_all.deb
+Size: 24200
+MD5sum: 19b1aa31b09fcd1aa70e72e8e94f51b4
+SHA1: b04400394d723d8c01eb14d3cc0655c919afa1d1
+SHA256: 5586b8870114b214d004a0107e317376b5a38556aa8cf411712491a1241cd1fc
+SHA512: ba1dfee0071c68dfc9949122a86e1b629c2c8442980be8b932791df404b20eb79be9bb266e693ac3028eab6bc7952d78d919c0e42070ee031d57422b1b44801e
+Homepage: http://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git
+Description: Binary firmware for various drivers in the Linux kernel
+ This package contains firmware which was previously included in the Linux
+ kernel and which is compliant with the Debian Free Software Guidelines.
+ .
+ Most firmware previously included in the Linux kernel is non-free and has
+ been moved to the firmware-linux-nonfree package.
+ .
+ Contents:
+  * AV7110 DVB card firmware (av7110/bootcode.bin)
+  * Atheros AR9170 free firmware for use with carl9170 (carl9170-1.fw)
+  * 3Com Megahertz 3CCFEM556 CIS fix (cis/3CCFEM556.cis)
+  * 3Com Megahertz 3CXEM556 CIS fix (cis/3CXEM556.cis)
+  * Advantech COMpad-32/85 CIS fix (cis/COMpad2.cis)
+  * Advantech COMpad-32/85B-4 CIS fix (cis/COMpad4.cis)
+  * NSC DP83903 PCMCIA Ethernet card CIS fix (cis/DP83903.cis)
+  * Allied Telesis LA-PCM CIS fix (cis/LA-PCM.cis)
+  * MultiTech PCMCIA 56K DataFax CIS fix (cis/MT5634ZLX.cis)
+  * NDC PCMCIA Ethernet card CIS fix (cis/NE2K.cis)
+  * EN2218-LAN/MODEM CIS fix (cis/PCMLM28.cis)
+  * PreMax PE-200 CIS fix (cis/PE-200.cis)
+  * LanPro EP-4000A CIS fix (cis/PE520.cis)
+  * RS-COM 2P CIS fix (cis/RS-COM-2P.cis)
+  * Sierra Aircard 555 CIS fix (cis/SW_555_SER.cis)
+  * Sierra Wireless AC710/AC750 CIS fix (cis/SW_7xx_SER.cis)
+  * Sierra Wireless AC850/AC860 CIS fix (cis/SW_8xx_SER.cis)
+  * Tamarack PCMCIA Ethernet card CIS fix (cis/tamarack.cis)
+  * Atari Falcon DSP56001 firmware (dsp56k/bootstrap.bin)
+  * Intel C600 SAS/SATA controller default parameters, version 1.3
+    (isci/isci_firmware.bin)
+  * Keyspan USA-19 firmware (keyspan_pda/keyspan_pda.fw)
+  * Xircom PGSDB9/Entrega PortGear firmware (keyspan_pda/xircom_pgs.fw)
+  * USB-DUX firmware (usbdux_firmware.bin)
+  * USB-DUXfast firmware (usbduxfast_firmware.bin)
+  * USB-DUXsigma firmware (usbduxsigma_firmware.bin)
+
+Package: firmware-tomu
+Architecture: all
+Version: 2.0~rc7-2
+Priority: optional
+Section: misc
+Maintainer: Louis-Philippe Véronneau <pollo@debian.org>
+Installed-Size: 244
+Depends: dfu-util
+Filename: pool/main/f/firmware-tomu/firmware-tomu_2.0~rc7-2_all.deb
+Size: 35908
+MD5sum: 4c68329ec1386944f1df19630fd0c5d0
+SHA1: 8eb17f4d7777cba6948a53022d299e485c4f1c8a
+SHA256: 69b0ceddbbb92fe02bd7e02da144d91c0b4b2e9801b7686bb9f7aafb208a59ff
+SHA512: ddedd1ae715718f9e64957cd6be74f19f82b532030682906910e68095dcf406bc72e71888181d59f038cf9c5eb5120c04e428a266f9fd3fe5f439d65749358e9
+Homepage: https://github.com/im-tomu/tomu-bootloader
+Description: Bootloader for the EFM32HG Tomu Board
+ The Tomu is a tiny ARM microprocessor which fits in your USB port. It has two
+ buttons and two LEDs!
+ .
+ The board is fully open source and is buildable by hobbyists! Designed for
+ 2-factor authentication, usb experiments, or anything else you can think of.
+ .
+ This package provides the bootloader for the Tomu board to make flashing it
+ easier.
+
+Package: fontconfig-config
+Architecture: amd64
+Version: 2.14.1-4
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Source: fontconfig
+Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
+Installed-Size: 527
+Depends: debconf (>= 0.5) | debconf-2.0, fonts-dejavu-core | ttf-bitstream-vera | fonts-liberation | fonts-liberation2 | fonts-croscore | fonts-freefont-otf | fonts-freefont-ttf | fonts-urw-base35 | fonts-texgyre
+Breaks: libfontconfig1 (<< 2.13.0)
+Filename: pool/main/f/fontconfig/fontconfig-config_2.14.1-4_amd64.deb
+Size: 314864
+MD5sum: 88cb4a667a75c108ddf316da4683f12e
+SHA1: fd4496b756a8b1c2f5b2c417c93104feb90e56f8
+SHA256: 281c66e46b95f045a0282a6c7a03b33de0e9a08d016897a759aaf4a04adfddbe
+SHA512: f466012abaf2bf1d98f5d523169275cacec2bc893c48b488ae1e5dfdc1c81fa1a00147cd859ee9946a311a7fea8ed061f5ee47270a336ef93377a12f7b156697
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+Description: generic font configuration library - configuration
+ Fontconfig is a font configuration and customization library, which
+ does not depend on the X Window System. It is designed to locate
+ fonts within the system and select them according to requirements
+ specified by applications.
+ .
+ This package contains the configuration files and scripts for fontconfig.
+
+Package: libfontconfig1
+Architecture: amd64
+Version: 2.14.1-4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: fontconfig
+Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
+Installed-Size: 579
+Provides: libfontconfig
+Depends: libc6 (>= 2.33), libexpat1 (>= 2.0.1), libfreetype6 (>= 2.9.1), fontconfig-config (>= 2.14.1-4)
+Breaks: xpdf (<= 3.03-11)
+Filename: pool/main/f/fontconfig/libfontconfig1_2.14.1-4_amd64.deb
+Size: 385664
+MD5sum: 522c4fa1fecd36d0f11eb6970fcd1364
+SHA1: c5a8afa622f1885bd515879720392f746f16d77c
+SHA256: 16ee38d374e064f534116dc442b086ef26f9831f1c0af7e5fb4fe4512e700649
+SHA512: 2a9c31c7f3e65c41714a61fad170aeacf2b16126bff2036fcf5fb2ea0b5db53313a321bb68233bd4ae1e4ef51e0edde47d06334e54265065d265d5c460904c7e
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+Description: generic font configuration library - runtime
+ Fontconfig is a font configuration and customization library, which
+ does not depend on the X Window System. It is designed to locate
+ fonts within the system and select them according to requirements
+ specified by applications.
+ .
+ This package contains the runtime library needed to launch applications
+ using fontconfig.
+
+Package: fonts-dejavu-core
+Architecture: all
+Version: 2.37-6
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Source: fonts-dejavu
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Installed-Size: 2960
+Filename: pool/main/f/fonts-dejavu/fonts-dejavu-core_2.37-6_all.deb
+Size: 1067728
+MD5sum: 755d6c59d57accb3000de0cdba40918d
+SHA1: b2204a626ea3aa2d4fa0f52a09b6e4c38a3ba180
+SHA256: 8892669e51aab4dc56682c8e39d8ddb7d70fad83c369344e1e240bf3ca22bb76
+SHA512: c74012a410d1f9c99e36cc20c21580f590fb62c76af6fa7e6a3597833ef7c6406fcf81809a5a217b3477380498e4d259f5d08052628643e843853579a0e6e9df
+Homepage: https://dejavu-fonts.github.io/
+Description: Vera font family derivate with additional characters
+ DejaVu provides an expanded version of the Vera font family aiming for
+ quality and broader Unicode coverage while retaining the original Vera
+ style. DejaVu currently works towards conformance with the Multilingual
+ European Standards (MES-1 and MES-2) for Unicode coverage. The DejaVu
+ fonts provide serif, sans and monospaced variants.
+ .
+ This package only contains the sans, sans-bold, serif, serif-bold,
+ mono and mono-bold variants. For additional variants, see the
+ fonts-dejavu-extra package.
+ .
+ DejaVu fonts are intended for use on low-resolution devices (mainly
+ computer screens) but can be used in printing as well.
+
+Package: libfreetype6
+Architecture: amd64
+Version: 2.12.1+dfsg-5
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: freetype
+Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
+Installed-Size: 890
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.33), libpng16-16 (>= 1.6.2-1), zlib1g (>= 1:1.1.4)
+Filename: pool/main/f/freetype/libfreetype6_2.12.1+dfsg-5_amd64.deb
+Size: 399184
+MD5sum: f456e7345d08a4b24889307d6e1c9c05
+SHA1: 8b0c71aa2aa21be91f4fcee8cd5fd2476dde6e8b
+SHA256: 72ef03236f1936e72a0faf86a547425b0eff3c5fd0b43f8669012182cf376354
+SHA512: 4c231a806c1b08cfdcde659caf1408f655d3b788d1afdce4847e938157ea8ce262f09c0d3fd4f2fa47582e916fe44623b2bf5ab14714612de9627d155b090560
+Homepage: https://freetype.org
+Description: FreeType 2 font engine, shared library files
+ The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on providing small,
+ efficient and ubiquitous products.
+ .
+ The FreeType 2 library is their new software font engine.  It has been
+ designed to provide the following important features:
+  * A universal and simple API to manage font files
+  * Support for several font formats through loadable modules
+  * High-quality anti-aliasing
+  * High portability & performance
+ .
+ Supported font formats include:
+  * TrueType files (.ttf) and collections (.ttc)
+  * Type 1 font files both in ASCII (.pfa) or binary (.pfb) format
+  * Type 1 Multiple Master fonts.  The FreeType 2 API also provides
+    routines to manage design instances easily
+  * Type 1 CID-keyed fonts
+  * OpenType/CFF (.otf) fonts
+  * CFF/Type 2 fonts
+  * Adobe CEF fonts (.cef), used to embed fonts in SVG documents with
+    the Adobe SVG viewer plugin.
+  * Windows FNT/FON bitmap fonts
+ .
+ This package contains the files needed to run programs that use the
+ FreeType 2 library.
+
+Package: libfuse2
+Architecture: amd64
+Version: 2.9.9-6+b1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: fuse (2.9.9-6)
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 345
+Depends: libc6 (>= 2.34)
+Suggests: fuse
+Conflicts: fuse (<< 2.9.9-6+b1)
+Filename: pool/main/f/fuse/libfuse2_2.9.9-6+b1_amd64.deb
+Size: 118668
+MD5sum: f074c6b6831342cfd750f92d56d5c24e
+SHA1: 3b86f7f930ed3bccb8e80307b424c3f70b315abd
+SHA256: df32b8f65d819f854e096896890d6ad632b6e520977bb120bb3143b4c66e2fcd
+SHA512: 35860706753da78cf86fa928e76bbaf18dfac893a924bef07ff0ad72022c0be476c791edbf8e36cab1561c77bb728a4557aff1360e57af2a5f391bffa77f2210
+Homepage: https://github.com/libfuse/libfuse/wiki
+Description: Filesystem in Userspace (library)
+ Filesystem in Userspace (FUSE) is a simple interface for userspace programs to
+ export a virtual filesystem to the Linux kernel. It also aims to provide a
+ secure method for non privileged users to create and mount their own filesystem
+ implementations.
+ .
+ This package contains the shared library.
+
+Package: libfuse3-3
+Architecture: amd64
+Version: 3.14.0-4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: fuse3
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 305
+Depends: libc6 (>= 2.34)
+Suggests: fuse3
+Filename: pool/main/f/fuse3/libfuse3-3_3.14.0-4_amd64.deb
+Size: 88108
+MD5sum: 208987f0d4e79917875282f7aa32b8ac
+SHA1: dce3498dbde9213f78d577cf16703a92232022e2
+SHA256: bf535cec5e965823fd03199b4029f9e9f3952111eb12824b5d2b96c8cca1a918
+SHA512: cb01d3e5a7c569ef0326530fdf58f329a2bd66dd2cecbd20b724d204c4f880b091a3190e1457f343965962219fc4069c6a44d0bf67e581a5220786f4843a3ba0
+Homepage: https://github.com/libfuse/libfuse/wiki
+Description: Filesystem in Userspace (library) (3.x version)
+ Filesystem in Userspace (FUSE) is a simple interface for userspace programs to
+ export a virtual filesystem to the Linux kernel. It also aims to provide a
+ secure method for non privileged users to create and mount their own filesystem
+ implementations.
+ .
+ This package contains the shared library.
+
+Package: libgomp1
+Architecture: amd64
+Version: 12.2.0-14
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gcc-12
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 312
+Depends: gcc-12-base (= 12.2.0-14), libc6 (>= 2.34)
+Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+Filename: pool/main/g/gcc-12/libgomp1_12.2.0-14_amd64.deb
+Size: 115808
+MD5sum: 58478fd9f3d27fe5be4b66f542c06e6f
+SHA1: fdc23314a9997bff02795e451e3a0f6f80cbdcfe
+SHA256: 1dbc499d2055cb128fa4ed678a7adbcced3d882b3509e26d5aa3742a4b9e5b2f
+SHA512: 28bfc1e856ec1e074ac0a4df5dc5276067ea0a13f59bd3c492119bd33a4921cb9ddb4178ef5f75a8ee465e58865f3ba775d8dc459534c1c4e38290441c7fc217
+Homepage: http://gcc.gnu.org/
+Description: GCC OpenMP (GOMP) support library
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
+ in the GNU Compiler Collection.
+
+Package: libgdbm-compat4
+Architecture: amd64
+Version: 1.23-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gdbm
+Maintainer: Nicolas Mora <babelouest@debian.org>
+Installed-Size: 70
+Depends: libc6 (>= 2.33), libgdbm6 (>= 1.16)
+Filename: pool/main/g/gdbm/libgdbm-compat4_1.23-3_amd64.deb
+Size: 48156
+MD5sum: fd6579ae8cb3a18a0ca56ccdc3ac2403
+SHA1: a7eef5fb15509235ce55a4bd974b19a02157e473
+SHA256: 4af36a590b68d415a78d9238b932b6a4579f515ec8a8016597498acff5b515a4
+SHA512: 1860a76c0999f77583e822ab1123278164d810e67f1764e296d304a85977557231222b7f4c9a63f1f2067c5fa261e8bbcb1dfe00f1639d66ff3b371d09a1b647
+Homepage: https://gnu.org/software/gdbm
+Description: GNU dbm database routines (legacy support runtime version) 
+ GNU dbm ('gdbm') is a library of database functions that use extendible
+ hashing and works similarly to the standard UNIX 'dbm' functions.
+ .
+ The basic use of 'gdbm' is to store key/data pairs in a data file, thus
+ providing a persistent version of the 'dictionary' Abstract Data Type
+ ('hash' to perl programmers).
+ This package includes library files, required to run old programs,
+ that use legacy 'dbm' interface. For new programs, please use modern
+ interface, provided by libgdbm6 and libgdbm-dev.
+
+Package: libgdbm6
+Architecture: amd64
+Version: 1.23-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gdbm
+Maintainer: Nicolas Mora <babelouest@debian.org>
+Installed-Size: 129
+Depends: libc6 (>= 2.34)
+Suggests: gdbm-l10n (= 1.23-3)
+Filename: pool/main/g/gdbm/libgdbm6_1.23-3_amd64.deb
+Size: 72248
+MD5sum: 74449c52293efdb6d013d29856047e75
+SHA1: 22eb2b8ed285937d602fdeab2beef265da0ace5c
+SHA256: 95fe4a1336532450e67bd067892f46eaa484139919ea8d067a9ffcbf5a4bf883
+SHA512: eb04ee875d484b83610c132b87de6e39108cc13c3d3da401071a71569c8db91f670e02179f9a694a8d3617ecc205865dfa64d088b0936c9651d399e5cbcca9e3
+Homepage: https://gnu.org/software/gdbm
+Description: GNU dbm database routines (runtime version) 
+ GNU dbm ('gdbm') is a library of database functions that use extendible
+ hashing and works similarly to the standard UNIX 'dbm' functions.
+ .
+ The basic use of 'gdbm' is to store key/data pairs in a data file, thus
+ providing a persistent version of the 'dictionary' Abstract Data Type
+ ('hash' to perl programmers).
+
+Package: gettext-base
+Architecture: amd64
+Version: 0.21-12
+Multi-Arch: foreign
+Priority: standard
+Section: utils
+Source: gettext
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 645
+Depends: libc6 (>= 2.34)
+Filename: pool/main/g/gettext/gettext-base_0.21-12_amd64.deb
+Size: 160164
+MD5sum: 7c01984a8862071da212ab302283eda6
+SHA1: ed63a2851f8b8be0d3c1e1c349d13cf642d38c63
+SHA256: 5cb39c7acc7125e677ec98d0426a987daf0ce062f749f2a9421b2511f6dd5ab7
+SHA512: 55686bd97202cedc5d93e43f555af85c70956f65e3cde644a7ad5e0addf565eaa69b86c7f412448dd666ac15578f316bbcec2498fdd47d2a99b71319a4e43faa
+Homepage: https://www.gnu.org/software/gettext/
+Description: GNU Internationalization utilities for the base system
+ This package includes the gettext and ngettext programs which allow
+ other packages to internationalize the messages given by shell scripts.
+
+Package: grub-efi-amd64-signed
+Architecture: amd64
+Version: 1+2.06+13+deb12u1
+Built-Using: grub2 (= 2.06-13+deb12u1)
+Priority: optional
+Section: admin
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 15432
+Depends: grub-common (>= 2.06-13+deb12u1)
+Recommends: shim-signed
+Filename: pool/main/g/grub-efi-amd64-signed/grub-efi-amd64-signed_1+2.06+13+deb12u1_amd64.deb
+Size: 1258796
+MD5sum: 6703c25d9c27e5235c085f8281aeac8b
+SHA1: f2f14dfb24a19431af8e8784602b7a8be8ba37ed
+SHA256: 009cf7628c0b6cf1f4472df8b9bf5db603028185db63670686d5b985c4f4bc9d
+SHA512: bd1fdfeb21e9f42afb94b71818bb3033b746062851ac2d5b02ee2240d41404220b36d37673ee52fb6f0ea0d707d0d9078023a72546af404a3dcca7e997bcb482
+Description: GRand Unified Bootloader, version 2 (amd64 UEFI signed by Debian)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains the binaries signed by the Debian UEFI CA to be used by
+ shim-signed.
+
+Package: grub-common
+Architecture: amd64
+Version: 2.06-13+deb12u1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 17773
+Depends: libc6 (>= 2.34), libdevmapper1.02.1 (>= 2:1.02.36), libefiboot1 (>= 37), libefivar1 (>= 37), libfreetype6 (>= 2.2.1), libfuse2 (>= 2.8.4-1.4), liblzma5 (>= 5.1.1alpha+20120614), gettext-base
+Recommends: os-prober (>= 1.33)
+Suggests: multiboot-doc, grub-emu, mtools, xorriso (>= 0.5.6.pl00), desktop-base (>= 4.0.6), console-setup
+Conflicts: init-select
+Breaks: apport (<< 2.1.1), friendly-recovery (<< 0.2.13), lupin-support (<< 0.55), mdadm (<< 2.6.7-2)
+Replaces: grub-coreboot (<< 2.00-4), grub-efi (<< 1.99-1), grub-efi-amd64 (<< 2.00-4), grub-efi-ia32 (<< 2.00-4), grub-efi-ia64 (<< 2.00-4), grub-ieee1275 (<< 2.00-4), grub-linuxbios (<< 1.96+20080831-1), grub-pc (<< 2.00-4), grub-yeeloong (<< 2.00-4), init-select
+Filename: pool/main/g/grub2/grub-common_2.06-13+deb12u1_amd64.deb
+Size: 2708792
+MD5sum: 91171573aa5b430d77f5205adad0a00d
+SHA1: 46cff1331e4460b7a02374906f04974c500afd63
+SHA256: 0e04e5339cd45398ae32406651f4f5bdd54c2a271aeea9aa3d95b571888a19f3
+SHA512: ea40896cb5c89ba7b14054c49ee133ebb0b429b01b7e1d487c7f79a7805523b4f82be5af930d491d3b511a150029538a8f78d64d1b51fd17052c93f63c5edaab
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader (common files)
+ This package contains common files shared by the distinct flavours of GRUB.
+ It is shared between GRUB Legacy and GRUB 2, although a number of files
+ specific to GRUB 2 are here as long as they do not break GRUB Legacy.
+ .
+ grub-mkrescue needs the suggested packages mtools (for UEFI targets) and
+ xorriso.
+
+Package: grub-efi-amd64-bin
+Architecture: amd64
+Version: 2.06-13+deb12u1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 18239
+Depends: grub-common (= 2.06-13+deb12u1)
+Recommends: grub-efi-amd64-signed, efibootmgr
+Replaces: grub-common (<= 1.97~beta2-1), grub-efi-amd64 (<< 1.99-1), grub2 (<< 2.06-13+deb12u1)
+Filename: pool/main/g/grub2/grub-efi-amd64-bin_2.06-13+deb12u1_amd64.deb
+Size: 1573828
+MD5sum: e1a4b76d4c27e213afa86d0e62148dac
+SHA1: 7cfafb46ed9cba6be0318cb30f6adce63a2b5db3
+SHA256: 9fa0ed9484dc92f3239802b1e3dda402720cf9a5d8d2b653154399641b5e8ef5
+SHA512: ff599d44065339b1fb4858d4fcc279b454f7b371a438270943cc4d96d5f9cf183c4a695eaba31bb595f2b81933160e9bc791bd2b7a15e8202a2e9871a259bfd7
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 modules)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use with the
+ EFI-AMD64 architecture, as used by Intel Macs (unless a BIOS interface has
+ been activated).  It can be installed in parallel with other flavours, but
+ will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-amd64 is also
+ installed.
+Efi-Vendor: debian
+
+Package: grub-efi-amd64
+Architecture: amd64
+Version: 2.06-13+deb12u1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 176
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.06-13+deb12u1), grub2-common (= 2.06-13+deb12u1), grub-efi-amd64-bin (= 2.06-13+deb12u1), ucf
+Conflicts: elilo, grub, grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub-xen
+Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.06-13+deb12u1)
+Filename: pool/main/g/grub2/grub-efi-amd64_2.06-13+deb12u1_amd64.deb
+Size: 45660
+MD5sum: 8d310aecf313d9b01a812b336e2fb2d5
+SHA1: 8196ed5b432fb80fbdd7539726ecfb07f5696008
+SHA256: 5047a6c75af9c6abb81afecb88376c5dad7b72a83ed017fca9b3a1eb41b66181
+SHA512: 83c73b689c8dbb70c4e14a2cce014aabde6f22c52acda17533fd71713889121c9e494cae3b0a06b1d0b57d38bc56a5f7933063cce524c83e9feb9fb2731a23a4
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use with the EFI-AMD64 architecture, as used by Intel Macs (unless a BIOS
+ interface has been activated).  Installing this package indicates that this
+ version of GRUB should be the active boot loader.
+
+Package: grub-pc-bin
+Architecture: amd64
+Version: 2.06-13+deb12u1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 3101
+Depends: libc6 (>= 2.34), libdevmapper1.02.1 (>= 2:1.02.36), grub-common (= 2.06-13+deb12u1)
+Suggests: desktop-base (>= 4.0.6)
+Replaces: grub-common (<= 1.97~beta2-1), grub-pc (<< 1.99-1), grub2 (<< 2.06-13+deb12u1)
+Filename: pool/main/g/grub2/grub-pc-bin_2.06-13+deb12u1_amd64.deb
+Size: 997184
+MD5sum: 9c80d5cce9244a0facf425e291115a23
+SHA1: 7d26daad5128cd40a3ac015a87ed03ffe175a114
+SHA256: 0925ad6648ce9470c3947ad959777f21b7a305418083528317fb5d83416d78bb
+SHA512: e02e787407b2762ab2ea7dff9ff82170aab0af58f80ae21d7f54073b07dc3c3dcb824d0945036679bd94edf6138132d9df1a76413c2f953ae0e30b4329a2cba8
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (PC/BIOS modules)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+  - VESA-based graphical mode with background image support and complete 24-bit
+    color set.
+  - Support for extended charsets.  Users can write UTF-8 text to their menu
+    entries.
+ .
+ This package contains GRUB modules that have been built for use with the
+ traditional PC/BIOS architecture.  It can be installed in parallel with
+ other flavours, but will not automatically install GRUB as the active boot
+ loader nor automatically update grub.cfg on upgrade unless grub-pc is also
+ installed.
+
+Package: grub-pc
+Architecture: amd64
+Version: 2.06-13+deb12u1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 551
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.06-13+deb12u1), grub2-common (= 2.06-13+deb12u1), grub-pc-bin (= 2.06-13+deb12u1), ucf
+Conflicts: grub (<< 0.97-54), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-xen
+Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub2 (<< 2.06-13+deb12u1)
+Filename: pool/main/g/grub2/grub-pc_2.06-13+deb12u1_amd64.deb
+Size: 136504
+MD5sum: c81d3c72ea365c9aed63c4b8f2d4a7b0
+SHA1: 5b36be8bfdb143ef0d79d5da21ae2232ad86b657
+SHA256: cf464e4780f1042ec5d2c79105b3428fe71126147d31eef7bc750a2aebebac91
+SHA512: 8bc166a11c23683f587c4072ca707ee502f65bd46902daa49c0be58eb6979796544440a3c01cf2dbdf36cffeb2436b86801aba1f51b09756f83d42ac99f00cbc
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (PC/BIOS version)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+  - VESA-based graphical mode with background image support and complete 24-bit
+    color set.
+  - Support for extended charsets.  Users can write UTF-8 text to their menu
+    entries.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use with the traditional PC/BIOS architecture.  Installing this package
+ indicates that this version of GRUB should be the active boot loader.
+
+Package: grub2-common
+Architecture: amd64
+Version: 2.06-13+deb12u1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 1344
+Depends: grub-common (= 2.06-13+deb12u1), dpkg (>= 1.15.4), libc6 (>= 2.34), libdevmapper1.02.1 (>= 2:1.02.36), libefiboot1 (>= 37), libefivar1 (>= 37), liblzma5 (>= 5.1.1alpha+20120614)
+Conflicts: grub-legacy
+Breaks: grub (<< 0.97-54), grub-cloud-amd64 (<< 0.0.4), grub-coreboot (<< 2.02+dfsg1-7), grub-doc (<< 0.97-32), grub-efi-amd64 (<< 2.02+dfsg1-7), grub-efi-arm (<< 2.02+dfsg1-7), grub-efi-arm64 (<< 2.02+dfsg1-7), grub-efi-ia32 (<< 2.02+dfsg1-7), grub-efi-ia64 (<< 2.02+dfsg1-7), grub-ieee1275 (<< 2.02+dfsg1-7), grub-legacy-doc (<< 0.97-59), grub-pc (<< 2.02+dfsg1-7), grub-uboot (<< 2.02+dfsg1-7), grub-xen (<< 2.02+dfsg1-7), grub-yeeloong (<< 2.02+dfsg1-7), shim (<< 0.9+1474479173.6c180c6-0ubuntu1~)
+Replaces: grub, grub-cloud-amd64 (<< 0.0.4), grub-common (<< 1.99-1), grub-coreboot (<< 2.02+dfsg1-7), grub-doc (<< 0.97-32), grub-efi-amd64 (<< 2.02+dfsg1-7), grub-efi-arm (<< 2.02+dfsg1-7), grub-efi-arm64 (<< 2.02+dfsg1-7), grub-efi-ia32 (<< 2.02+dfsg1-7), grub-efi-ia64 (<< 2.02+dfsg1-7), grub-ieee1275 (<< 2.02+dfsg1-7), grub-legacy, grub-legacy-doc (<< 0.97-59), grub-pc (<< 2.02+dfsg1-7), grub-uboot (<< 2.02+dfsg1-7), grub-xen (<< 2.02+dfsg1-7), grub-yeeloong (<< 2.02+dfsg1-7)
+Filename: pool/main/g/grub2/grub2-common_2.06-13+deb12u1_amd64.deb
+Size: 614008
+MD5sum: 23ea3365ba38e7d8295555493b15485f
+SHA1: 3ed220a7bec0df3272b898bdeb52d509da46db72
+SHA256: 5246136837f485889569ebc42dcc8c2e69e77dc027f5b064f14de53ef4cb79b1
+SHA512: 40c1aee47f0bfdbba3a38eab9107be448fe58f11f17157d1b122f868f3fdd5093be17b6b6e88a147a76cc94096fac4d6585d10d7422412d5e037e2457c3a0c44
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader (common files for version 2)
+ This package contains common files shared by the distinct flavours of GRUB.
+ The files in this package are specific to GRUB 2, and would break GRUB
+ Legacy if installed on the same system.
+
+Package: hdmi2usb-fx2-firmware
+Architecture: all
+Version: 0.0.0~git20151225-3
+Priority: optional
+Section: video
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 45
+Suggests: fxload
+Filename: pool/main/h/hdmi2usb-fx2-firmware/hdmi2usb-fx2-firmware_0.0.0~git20151225-3_all.deb
+Size: 11264
+MD5sum: 23fbbe3e9209294cb59bd1f51bf36c12
+SHA1: 260e4a21ef8323f052c8b28f33388095242d741b
+SHA256: 050d2b431dd0fa034990b272c0163cf6c8fb1083c2afb34f831a00df9d67eac7
+SHA512: 219ed3069177058c3f63df875b8cae55ab3ad88c6c1abc538bf7f222c2b32db5752f5d092de9dbb71723a298fbde8d58cc1cc5c129c9dc920fd90605f6a2ec88
+Homepage: https://github.com/mithro/fx2lib/tree/cdc-usb-serialno-from-eeprom
+Description: FX2 firmware for hdmi2usb board development
+ This package contains the FX2 firmware for several modes of the Numato Opsis
+ board's USB interface.
+ .
+ It is used for flashing updates to the board.
+
+Package: libicu72
+Architecture: amd64
+Version: 72.1-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: icu
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 36170
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
+Breaks: libiculx63 (<< 63.1-5), openttd (<< 1.8.0-2~)
+Replaces: libiculx63 (<< 63.1-5)
+Filename: pool/main/i/icu/libicu72_72.1-3_amd64.deb
+Size: 9376408
+MD5sum: 6bbe7baa75131a2c638adcbfeff359d3
+SHA1: e2fca06c73417bc2975189df230d80f990254e46
+SHA256: e239c1c9f52bee0ff627f291552d63691b765ec7c5cdf6de7c7ae4dec0275857
+SHA512: 302d8ff54f98c5244516d6c7616ec917aa622a35d1a426611bb74232825c5348ad7cc4d985200a3d74db5cc58cbdd57e77a617dc880dcdf788922301735b70df
+Homepage: https://icu.unicode.org/
+Description: International Components for Unicode
+ ICU is a C++ and C library that provides robust and full-featured
+ Unicode and locale support.  This package contains the runtime
+ libraries for ICU.
+
+Package: indi-dsi
+Architecture: amd64
+Version: 0.4+20221223123028-1
+Priority: optional
+Section: science
+Maintainer: Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>
+Installed-Size: 222
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libindidriver1 (>= 1.9.9+dfsg), libstdc++6 (>= 5.2), libusb-1.0-0 (>= 2:1.0.9)
+Filename: pool/main/i/indi-dsi/indi-dsi_0.4+20221223123028-1_amd64.deb
+Size: 55176
+MD5sum: 4fbd079520925bd7fad25606abecc188
+SHA1: 7e1dbce19224a6317a7657fffd2317f4bebd4efb
+SHA256: 75061b4895fea30ece758f66af5797bdf896b1d4ab858f39e84e09a36abee780
+SHA512: d79de2cae9ae49cc3c6519ecd6023b769b9f8bf9c40499e660fdbf89ea799b270c5420bf42731ac639484078337b83fa682c99a8bb455da3f1e34446378f33aa
+Homepage: https://github.com/indilib/indi-3rdparty
+Description: INDI driver for Meade DSI Pro I/II/III
+ This package contains an INDI driver for Meade DSI Pro I/II/III cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: libindi-data
+Architecture: all
+Version: 1.9.9+dfsg-2
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Source: indi
+Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 92
+Filename: pool/main/i/indi/libindi-data_1.9.9+dfsg-2_all.deb
+Size: 46188
+MD5sum: bce8222618de67e7e021a987899432f7
+SHA1: 0bd63bf02e905b2e60c9acb214eeed89f633bcd3
+SHA256: be3233d1a69132ee168291ab00b5335154daff1be37b5647de503aa7cd9c5177
+SHA512: 3a49655b070f44fea1907173f567971c4d3fea8d7ea085f3671c81c4153ba10344db5d6630c84ba718da45439c5b4f2987c82bd294c7915753d5dfe7492e20ec
+Homepage: https://www.indilib.org/
+Description: Instrument-Neutral Device Interface library -- shared data
+ INDI (Instrument-Neutral Device Interface) is a distributed XML-based
+ control protocol designed to operate astronomical instrumentation.
+ INDI is small, flexible, easy to parse, scalable, and stateless.
+ It supports common DCS functions such as remote control, data acquisition,
+ monitoring, and a lot more.
+ .
+ This package contains the data files for the INDI library.
+
+Package: libindidriver1
+Architecture: amd64
+Version: 1.9.9+dfsg-2+b1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: indi (1.9.9+dfsg-2)
+Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1678
+Depends: libindi-data (>= 1.9.9+dfsg-2), libc6 (>= 2.34), libcfitsio10 (>= 4.2.0~), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libnova-0.16-0 (>= 0.16), libogg0 (>= 1.0rc3), libstdc++6 (>= 12), libtheora0 (>= 1.0), libusb-1.0-0 (>= 2:1.0.9), zlib1g (>= 1:1.1.4)
+Filename: pool/main/i/indi/libindidriver1_1.9.9+dfsg-2+b1_amd64.deb
+Size: 473672
+MD5sum: db526bd175d2f7844511d1166559d290
+SHA1: 6f364051968bd124440a5b30da6e8fe453f29936
+SHA256: 9f8c016e9e990a5658bac55853af3b795a203a795ab318ca84af312b23639fb7
+SHA512: 620725adb3e4620ec252b6d530412a8a418e8d00d400970c9d55ec37232fc442e89de35b050898201361353b8b9c6b25a3c6ab511a035e87c493b40531bd77db
+Homepage: https://www.indilib.org/
+Description: Instrument-Neutral Device Interface library -- driver library
+ INDI (Instrument-Neutral Device Interface) is a distributed XML-based
+ control protocol designed to operate astronomical instrumentation.
+ INDI is small, flexible, easy to parse, scalable, and stateless.
+ It supports common DCS functions such as remote control, data acquisition,
+ monitoring, and a lot more.
+ .
+ This package contains the driver shared library.
+
+Package: initramfs-tools-core
+Architecture: all
+Version: 0.142
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: initramfs-tools
+Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
+Installed-Size: 215
+Depends: klibc-utils (>= 2.0.4-8~), cpio (>= 2.12), kmod, udev, coreutils (>= 8.24), logsave | e2fsprogs (<< 1.45.3-1~)
+Recommends: busybox (>= 1:1.22.0-17~) | busybox-static (>= 1:1.22.0-17~), zstd
+Suggests: bash-completion
+Breaks: busybox (<< 1:1.22.0-17~), busybox-static (<< 1:1.22.0-17~), initramfs-tools (<< 0.121~)
+Replaces: initramfs-tools (<< 0.121~)
+Filename: pool/main/i/initramfs-tools/initramfs-tools-core_0.142_all.deb
+Size: 104720
+MD5sum: 9db60e62fc2e417428d673281d93217b
+SHA1: 4d183a52ff7f27315c12571437841236bfe6a2a4
+SHA256: 133079a3634cbc94e83141745204adf510eb02e4f1912f6a297090256f8d2138
+SHA512: 440c562e14e56b32bdfa6780db5111fffb6ca84d45b42ceaf078f49059ae92d98188467349d8297b5bd241eb1feb7751f1bdd66ebc5db28964743163e5daa13a
+Description: generic modular initramfs generator (core tools)
+ This package contains the mkinitramfs program that can be used to
+ create a bootable initramfs for a Linux kernel.  The initramfs should
+ be loaded along with the kernel and is then responsible for mounting
+ the root filesystem and starting the main init system.
+
+Package: initramfs-tools
+Architecture: all
+Version: 0.142
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
+Installed-Size: 113
+Provides: linux-initramfs-tool
+Depends: initramfs-tools-core (= 0.142), linux-base
+Suggests: bash-completion
+Conflicts: linux-initramfs-tool, usplash (<< 0.5.50)
+Breaks: e2fsprogs (<< 1.42.13), initscripts (<< 2.88dsf-59.3~), upstart
+Filename: pool/main/i/initramfs-tools/initramfs-tools_0.142_all.deb
+Size: 72864
+MD5sum: b00b1c4ad31046ed1f80852bf20161f2
+SHA1: ba01dc9edf69ba1198534ccad10d53b50a45816a
+SHA256: dd1b867f0000d967471b0f775fdb3b4a534d4ae70bdb56a93b1ffcf60965813b
+SHA512: be3d2a1d60d3fa59a1cfaf78cea43cd767891cf91e1519f4ce702a48858c3028c144341a060fad85b4559eacc7954f50bc43ec964cc081d4329215d6c0f77c48
+Description: generic modular initramfs generator (automation)
+ This package builds a bootable initramfs for Linux kernel packages.  The
+ initramfs is loaded along with the kernel and is responsible for
+ mounting the root filesystem and starting the main init system.
+
+Package: iucode-tool
+Architecture: amd64
+Version: 2.3.1-3
+Priority: optional
+Section: utils
+Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
+Installed-Size: 109
+Depends: libc6 (>= 2.34)
+Suggests: intel-microcode (>= 1)
+Filename: pool/main/i/iucode-tool/iucode-tool_2.3.1-3_amd64.deb
+Size: 56128
+MD5sum: 3738080ee24dee0d4bc366871ef5cb8a
+SHA1: 8ae71d62ee7faf9813691a8fed4af92961035851
+SHA256: 7b20b90c02499afef90ad7cfff24d008eac496f4afcb291852541b8483e4c6e1
+SHA512: 0abf32099202835a53b41d2ee823e8c4522bdab3e739408bbe8529004188a8e93f783cde96ee6a74af145fde4b620dcccb9cf5fa93dd69ef83db955c44162a59
+Homepage: https://gitlab.com/iucode-tool
+Description: Intel processor microcode tool
+ iucode_tool is a program to manipulate Intel® X86 and X86-64 processor
+ microcode collections, and to use the kernel facilities to upgrade the
+ microcode on Intel system processors.
+ .
+ It can load microcode data files in text and binary format, sort, list and
+ filter the microcodes contained in these files, write selected microcodes to a
+ new file in binary format, or upload them to the kernel.
+ .
+ It operates on non-free microcode data downloaded directly from Intel or
+ installed by the intel-microcode package.
+
+Package: ixo-usb-jtag
+Architecture: all
+Version: 0.0.1-2
+Priority: optional
+Section: embedded
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 88
+Suggests: fxload
+Filename: pool/main/i/ixo-usb-jtag/ixo-usb-jtag_0.0.1-2_all.deb
+Size: 10896
+MD5sum: 804cc430f7fab99d7713da5babd82ecc
+SHA1: acfd244aab860bcd4cb039a316057b02c4dabd1e
+SHA256: 09271dbc5187cc57723fe77c9b66d5dc4c22ced690c41bf4ede45b336b677627
+SHA512: 709904927511c3ab7510e7db7d31d3b7a2c79e08f9cb042ddaba9d0b32b55ecc6343e8df9239124fa5ce9246d9479a9eae66ffda245d2ce2ec07eff0098382a4
+Homepage: https://github.com/mithro/ixo-usb-jtag
+Description: Altera Bus Blaster emulation using Cypress FX2 chip
+ This firmware allows a USB-capable microcontroller to act like an Altera
+ USB-Blaster JTAG pod. Which in turn may allow you to use tools you'd normally
+ use with the Altera USB-Blaster, including UrJTAG and openocd.
+ .
+ Supported hardware: The Cypress FX2 EZ-USB family, or an FTDI FT245 in
+ combination with a CPLD. Builds are included for the hdmi2usb project's boards
+ (Digilet Nexys, Nexys2, Atlys and Numato Opsis).
+
+Package: jfsutils
+Architecture: amd64
+Version: 1.1.15-5
+Priority: optional
+Section: admin
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 1577
+Depends: libc6 (>= 2.14), libuuid1 (>= 2.16)
+Filename: pool/main/j/jfsutils/jfsutils_1.1.15-5_amd64.deb
+Size: 205980
+MD5sum: 549363a9c0b431108953d226734fe708
+SHA1: e65bca2258f04c6adc450abc5c336c220e99543e
+SHA256: e7e4b296d3a7f93edc577560f7ac8974119b1ad68eeb6a01f9afe64141d3bd3f
+SHA512: 690a59e1bc422b1695749602d5f6b0920b35ceab0d5285cc6afc1f5d74964a60c3b4c8ba8b0522b72a9ec0e01fa15d5ef49d2709f1a7d8025ccdd3808a271afb
+Homepage: https://jfs.sourceforge.net/
+Description: utilities for managing the JFS filesystem
+ Utilities for managing IBM's Journaled File System (JFS) under Linux.
+ .
+ IBM's journaled file system technology, currently used in IBM
+ enterprise servers, is designed for high-throughput server
+ environments, key to running intranet and other high-performance
+ e-business file servers.
+ .
+ The following utilities are available:
+  * fsck.jfs - initiate replay of the JFS transaction log, and check and
+    repair a JFS formatted device.
+  * logdump - dump a JFS formatted device's journal log.
+  * logredo - "replay" a JFS formatted device's journal log.
+  * mkfs.jfs - create a JFS formatted partition.
+  * xchkdmp - dump the contents of a JFS fsck log file created with
+    xchklog.
+  * xchklog - extract a log from the JFS fsck workspace into a file.
+  * xpeek - shell-type JFS file system editor.
+
+Package: jh7100-bootloader-recovery
+Architecture: all
+Version: 0~2021.07.14~git2b268a1c-2
+Multi-Arch: foreign
+Priority: optional
+Section: electronics
+Maintainer: Domenico Andreoli <cavok@debian.org>
+Installed-Size: 36
+Filename: pool/main/j/jh7100-bootloader-recovery/jh7100-bootloader-recovery_0~2021.07.14~git2b268a1c-2_all.deb
+Size: 12396
+MD5sum: b8011fccd80f5ddb3943494e05b87e1f
+SHA1: 0a6e5032ef464bd536ced9e63a5f90cb94f76e78
+SHA256: 8a7bea136a136075bad455cfafa989cced8c496cfde4d42d75eea1fd9a875f84
+SHA512: cd3cf61618a8bed38bea0b41c376ac2b409c5e60f701124739abc844422e0527d953c34af33aac3b5a016676e2084476d4fd9f0bd2af6ad5c79d592ef672bbda
+Homepage: https://github.com/starfive-tech/bootloader_recovery
+Description: StarFive JH7100 recovery bootloader
+ This firmware brings up the board enough to program all the boot stages
+ onto the boot flash. It recovers an otherwise unbootable system.
+
+Package: kbd
+Architecture: amd64
+Version: 2.5.1-1+b1
+Priority: optional
+Section: utils
+Source: kbd (2.5.1-1)
+Maintainer: Console utilities maintainers <pkg-kbd-devel@lists.alioth.debian.org>
+Installed-Size: 1815
+Provides: console-utilities
+Depends: libc6 (>= 2.34)
+Recommends: console-setup | console-data
+Conflicts: console-utilities
+Filename: pool/main/k/kbd/kbd_2.5.1-1+b1_amd64.deb
+Size: 334564
+MD5sum: 1380a51afbf31deba2abe51299aee181
+SHA1: 605eef0af2fb0de93a7def5e022b26ca7ec36fd4
+SHA256: 5397ddbc7a6cadae6535de5a6d550c8554d4d364997527a34576c76219f4a798
+SHA512: 7108658fbffc773dd35ec5dc57fdf85cbd76d01ecf5668e2b7c71bca38dae809e0bad11af3eac91c9b7c5a8c45833729256fc3d3cde4dbffefaf458571943c84
+Homepage: http://www.kbd-project.org/
+Description: Linux console font and keytable utilities
+ This package allows you to set up the Linux console, change the font,
+ resize text mode virtual consoles and remap the keyboard.
+ .
+ You will probably want to install the “console-setup” package which
+ sets up console font and keymap data files.
+
+Package: keyutils
+Architecture: amd64
+Version: 1.6.3-2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: Christian Kastner <ckk@debian.org>
+Installed-Size: 161
+Depends: libc6 (>= 2.34), libkeyutils1 (>= 1.6.3)
+Filename: pool/main/k/keyutils/keyutils_1.6.3-2_amd64.deb
+Size: 54456
+MD5sum: 1ec06c9bbdcd620763b82ecbe0497b2c
+SHA1: 4452170251aa5467009a0eb2945440f22a8fbaed
+SHA256: 5d601db221361b767869ff9d506fb6212c735d6ac16d8fd53c6538dc72cbed17
+SHA512: 120e963cee467de424108bd207ce5694229074b29ecb3561960019a169cc54c2ca96a74aa08b413a1081e378ef9318d2827d15979bd3ab5f0fa17f297458a69d
+Homepage: https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git
+Description: Linux Key Management Utilities
+ Keyutils is a set of utilities for managing the key retention facility in the
+ kernel, which can be used by filesystems, block devices and more to gain and
+ retain the authorization and encryption keys required to perform secure
+ operations.
+
+Package: klibc-utils
+Architecture: amd64
+Version: 2.0.12-1
+Multi-Arch: foreign
+Priority: optional
+Section: libs
+Source: klibc
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 569
+Depends: libklibc (= 2.0.12-1)
+Filename: pool/main/k/klibc/klibc-utils_2.0.12-1_amd64.deb
+Size: 94916
+MD5sum: 8052d12a7ebbba586902795e75bb3361
+SHA1: d39bf9b1a6e76d6cf41afd06eca288974fe2411d
+SHA256: 7807ca9145ef029075f2b05ef1de1756d8a5c5aa124cca461757d55fabbdfd79
+SHA512: ce42231a7b431c75d344a32cda5ba06c3c3e220cdeb18e1b3b197225d1393250f0231ee0ba980ff49d61cfecb2a68e8ccf016289553d74ea7420d9214f9c8f6d
+Homepage: https://git.kernel.org/cgit/libs/klibc/klibc.git
+Description: small utilities built with klibc for early boot
+ This package contains a collection of programs that are linked
+ against klibc. These duplicate some of the functionality of a
+ regular Linux toolset, but are typically much smaller than their
+ full-function counterparts.  They are intended for inclusion in
+ initramfs images and embedded systems.
+
+Package: libklibc
+Architecture: amd64
+Version: 2.0.12-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: klibc
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 97
+Filename: pool/main/k/klibc/libklibc_2.0.12-1_amd64.deb
+Size: 44192
+MD5sum: 1e7d3fbfa147b13d95d3e055942f83c9
+SHA1: 52b4a6f7e03ca8ede67a5a20e5adc762b37b7d7e
+SHA256: 6ac44426be69c64fcd9c70f117b7f9b4d3335d5d361c670aa80619b8f9ab09a5
+SHA512: a635864b6877bde624fc143889009c4159920a05d7c77ee649dc196dec0f45b79c6049638d63def6f07fdbe3c6715f69001fd318e29e693c74a3609a3169763f
+Homepage: https://git.kernel.org/cgit/libs/klibc/klibc.git
+Description: minimal libc subset for use with initramfs
+ klibc is intended to be a minimalistic libc subset for use with
+ initramfs.  It is deliberately written for small size, minimal
+ entanglement, and portability, not speed.  It is definitely a work in
+ progress, and a lot of things are still missing.
+
+Package: linux-base
+Architecture: all
+Version: 4.9
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 77
+Depends: debconf (>= 0.5) | debconf-2.0
+Breaks: kernel-common (<= 13.018+nmu1), linux-perf (<< 5.16.2-1~exp1)
+Replaces: kernel-common (<= 13.018+nmu1)
+Filename: pool/main/l/linux-base/linux-base_4.9_all.deb
+Size: 31784
+MD5sum: 85b95cf515416ea18c856b37f7d41971
+SHA1: 7153d000e81626060fe3fc2f5b49077e68debaae
+SHA256: 98be49c7067b058535496222a03a559b0fc205befa5b4e7ca5e1043ce708109a
+SHA512: 5ca8d10340a871a1d85f39adf571e8cf4afd4477ad1e5bb789d16d3567962c5e68cf70730293735aed24c9cd0b1ae58f1fd1cbf0e2057f1de32e893f2a49711e
+Description: Linux image base package
+ This package contains files and support scripts for all Linux
+ images.
+
+Package: linux-image-6.1.0-18-amd64
+Architecture: amd64
+Version: 6.1.76-1
+Built-Using: linux (= 6.1.76-1)
+Priority: optional
+Section: kernel
+Source: linux-signed-amd64 (6.1.76+1)
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 398601
+Depends: kmod, linux-base (>= 4.3~), initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool
+Recommends: firmware-linux-free, apparmor
+Suggests: linux-doc-6.1, debian-kernel-handbook, grub-pc | grub-efi-amd64 | extlinux
+Conflicts: linux-image-6.1.0-18-amd64-unsigned
+Breaks: fwupdate (<< 12-7), initramfs-tools (<< 0.120+deb8u2), wireless-regdb (<< 2019.06.03-1~)
+Replaces: linux-image-6.1.0-18-amd64-unsigned
+Filename: pool/main/l/linux-signed-amd64/linux-image-6.1.0-18-amd64_6.1.76-1_amd64.deb
+Size: 68766820
+MD5sum: 8ef496d662dbcb3b680b4824153c6216
+SHA1: 836ffffb5cd8b9942359d740815410e987a2d662
+SHA256: d86ef1da21ce0fa3ab7aca434defb2764a1d8ece508ec8d6c89acfd6c2a6cebc
+SHA512: 1e0daee5a9c8054dcf1bfc22dd5e58a719b8fdc83bfc0f8f820815b4d05bed3cd466cf12600b83c2aa9b2a2db15c20c288cae5317b6f08c2e423a12942d2135d
+Homepage: https://www.kernel.org/
+Description: Linux 6.1 for 64-bit PCs (signed)
+ The Linux kernel 6.1 and modules for use on PCs with AMD64, Intel 64 or
+ VIA Nano processors.
+ .
+ The kernel image and modules are signed for use with Secure Boot.
+
+Package: linux-image-amd64
+Architecture: amd64
+Version: 6.1.76-1
+Built-Using: linux (= 6.1.76-1)
+Priority: optional
+Section: kernel
+Source: linux-signed-amd64 (6.1.76+1)
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 13
+Provides: linux-image-generic, linux-latest-modules-6.1.0-18-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.1.0-18-amd64 (= 6.1.76-1)
+Filename: pool/main/l/linux-signed-amd64/linux-image-amd64_6.1.76-1_amd64.deb
+Size: 1476
+MD5sum: da035bb7485ca2fe7b7d58cf4c7ebdc5
+SHA1: de09d2f566f65045e2990eead55a42c6d334ad32
+SHA256: 669abf649af80f53762d4877f0a1f3b9c6f3c5848bbba11ef4b3a744407a781d
+SHA512: 732718d7072e6accc56107a2253767a687715951693c3834b13211ee9048062f884917920247fa196dde5a0a1a23fce29d37c6c5a137ec0f666ce3a420f9a3f7
+Homepage: https://www.kernel.org/
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+
+Package: lsb-base
+Architecture: all
+Version: 11.6
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: lsb
+Maintainer: Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>
+Installed-Size: 12
+Depends: sysvinit-utils (>= 3.05-4~)
+Filename: pool/main/l/lsb/lsb-base_11.6_all.deb
+Size: 4584
+MD5sum: e11ef978bfbcf7e07758cc35adf4d4a0
+SHA1: a35020cdf6d77bfe6ba53bca12f6f78ddb3ddf5b
+SHA256: f8bedd167280e76636df3a1bc023cd2906d458916c1af4c1d7912c5b971fc642
+SHA512: 2bfdccbf2e689b22b5bf9d61ed3e316700c65a28bc543efcc34b5458f3bb4f3183b1eb7241e1719b18fc756e2f71e5564c4c4d4af269eb8af50c2c48f6fa81e3
+Homepage: https://wiki.linuxfoundation.org/lsb/start
+Description: transitional package for Linux Standard Base init script functionality
+ This is an empty package; it's needed only because of Provides: not being
+ supported in debootstrap.  It can be safely removed.
+
+Package: dmeventd
+Architecture: amd64
+Version: 2:1.02.185-2
+Priority: optional
+Section: admin
+Source: lvm2 (2.03.16-2)
+Maintainer: Debian LVM Team <team+lvm@tracker.debian.org>
+Installed-Size: 224
+Depends: libc6 (>= 2.34), libdevmapper-event1.02.1 (>= 2:1.02.110), libdevmapper1.02.1 (>= 2:1.02.110), liblvm2cmd2.03 (>= 2.03.16)
+Filename: pool/main/l/lvm2/dmeventd_2%3a1.02.185-2_amd64.deb
+Size: 59188
+MD5sum: 385865db21984946bcf2d57fbdfdeebe
+SHA1: 2638a8dd5256082db615523f962a7bb1bd23c290
+SHA256: c5742689058b765217ffb6a88cffa4a65633da41ec7d2d9bbce5de28bebbe13d
+SHA512: 223638e4e45eb7a1044387cf2896b4015de0ba7399fe66cef00b189aeb9e6a7354cd6645022d65b3a72a087023732070f3d1d626d3cfa7b6503e6a71ccfa6167
+Homepage: https://sourceware.org/lvm2/
+Description: Linux Kernel Device Mapper event daemon
+ The Linux Kernel Device Mapper is the LVM (Linux Logical Volume Management)
+ Team's implementation of a minimalistic kernel-space driver that handles
+ volume management, while keeping knowledge of the underlying device layout
+ in user-space.  This makes it useful for not only LVM, but software raid,
+ and other drivers that create "virtual" block devices.
+ .
+ This package contains a daemon to monitor events of devmapper devices.
+
+Package: libdevmapper-event1.02.1
+Architecture: amd64
+Version: 2:1.02.185-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: lvm2 (2.03.16-2)
+Maintainer: Debian LVM Team <team+lvm@tracker.debian.org>
+Installed-Size: 53
+Depends: libc6 (>= 2.33), libdevmapper1.02.1 (>= 2:1.02.97)
+Filename: pool/main/l/lvm2/libdevmapper-event1.02.1_2%3a1.02.185-2_amd64.deb
+Size: 12896
+MD5sum: e7cc445f4306fb568d6c99d1628b88ac
+SHA1: 6758495971df604bcd6864b2f250ae032f244ba9
+SHA256: cb4b32141e9dc7e55a0d7807b087262942f8c8bd079f2ae9eeae7ae7f9896f75
+SHA512: c0e8f6f1bdc54519ef266e93aacbe220e6d24e106b5707e00c58bb68ca35af3b6ff538a5c385e95b0161b8b73242415d8c036f15a40167cd708b9903cad0c00f
+Homepage: https://sourceware.org/lvm2/
+Description: Linux Kernel Device Mapper event support library
+ The Linux Kernel Device Mapper is the LVM (Linux Logical Volume Management)
+ Team's implementation of a minimalistic kernel-space driver that handles
+ volume management, while keeping knowledge of the underlying device layout
+ in user-space.  This makes it useful for not only LVM, but software raid,
+ and other drivers that create "virtual" block devices.
+ .
+ This package contains the userspace library to help with event monitoring
+ for devmapper devices, in conjunction with the dmevent daemon.
+
+Package: liblvm2cmd2.03
+Architecture: amd64
+Version: 2.03.16-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: lvm2
+Maintainer: Debian LVM Team <team+lvm@tracker.debian.org>
+Installed-Size: 3054
+Depends: libaio1 (>= 0.3.93), libblkid1 (>= 2.24.2), libc6 (>= 2.34), libdevmapper-event1.02.1 (>= 2:1.02.74), libselinux1 (>= 3.1~), libsystemd0 (>= 233), libudev1 (>= 183), dmeventd
+Filename: pool/main/l/lvm2/liblvm2cmd2.03_2.03.16-2_amd64.deb
+Size: 742016
+MD5sum: fc41823ab9bb80b5511a02d014945fd4
+SHA1: 762b78b9ba215b73a7f4b1bcda2dc673740a5261
+SHA256: a7534db8ff9ae7d68ce417970349f5db1d0377dce75998f20a8e0d4f115e1a86
+SHA512: 6499f7641501620b063dde27a47d674e846f66deab3bd7e4a127f29a70fc6821b29645bc757f381f08131a7dead2b5165fff5015285af9f89b477867292b8da2
+Homepage: https://sourceware.org/lvm2/
+Description: LVM2 command library
+ This package contains the lvm2cmd shared library.
+
+Package: lvm2
+Architecture: amd64
+Version: 2.03.16-2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: Debian LVM Team <team+lvm@tracker.debian.org>
+Installed-Size: 4009
+Depends: libaio1 (>= 0.3.93), libblkid1 (>= 2.24.2), libc6 (>= 2.34), libdevmapper-event1.02.1 (>= 2:1.02.74), libedit2 (>= 2.11-20080614-0), libselinux1 (>= 3.1~), libsystemd0 (>= 233), libudev1 (>= 183), lsb-base, dmsetup (>= 2:1.02.185-2~), dmeventd (>= 2:1.02.185-2~)
+Recommends: thin-provisioning-tools
+Filename: pool/main/l/lvm2/lvm2_2.03.16-2_amd64.deb
+Size: 1228616
+MD5sum: 9880a54836efdd6f40440254bfc96031
+SHA1: dd1c35c7ed83268614a170924cd01f33ac414cbc
+SHA256: 608ae8de670342fc80d388185be64af9c886e61d145669a606db002663f7fd82
+SHA512: c07254e56431e4e22acc8624190d317262def2fdfed56752ec9f9008f271b9a19bae65a66dda502ec8938f1fbb7135b827b3a6aeb050c41d7cfacebe100836fc
+Homepage: https://sourceware.org/lvm2/
+Description: Linux Logical Volume Manager
+ This is LVM2, the rewrite of The Linux Logical Volume Manager.  LVM
+ supports enterprise level volume management of disk and disk subsystems
+ by grouping arbitrary disks into volume groups. The total capacity of
+ volume groups can be allocated to logical volumes, which are accessed as
+ regular block devices.
+
+Package: libaio1
+Architecture: amd64
+Version: 0.3.113-4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libaio
+Maintainer: Guillem Jover <guillem@debian.org>
+Installed-Size: 37
+Depends: libc6 (>= 2.4)
+Filename: pool/main/liba/libaio/libaio1_0.3.113-4_amd64.deb
+Size: 13360
+MD5sum: d1fd6f0ef262b5efbfe060aba999e19c
+SHA1: 01b61d6d98e59aac00f79a41f772286dd3a7c7e3
+SHA256: d1476e4beab3d85f8a7d31de94c27472711ed3ef399ce70708e24b259426125b
+SHA512: 7154283652212be8a79ed97c930d632dea71b72b88c103e37661bcbc74b3c8ebc940c5b83d34932c1ba73aafbd4076b6ae7876ce576a9a59d3b9ba2fb4ec6a58
+Homepage: https://pagure.io/libaio
+Description: Linux kernel AIO access library - shared library
+ This library enables userspace to use Linux kernel asynchronous I/O
+ system calls, important for the performance of databases and other
+ advanced applications.
+ .
+ This package contains the shared library.
+
+Package: libfile-find-rule-perl
+Architecture: all
+Version: 0.34-3
+Multi-Arch: foreign
+Priority: optional
+Section: perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 63
+Depends: perl:any, libnumber-compare-perl, libtext-glob-perl
+Filename: pool/main/libf/libfile-find-rule-perl/libfile-find-rule-perl_0.34-3_all.deb
+Size: 26596
+MD5sum: 48b97aa44d381d5b97a550b9955203c7
+SHA1: 1396d2854e6b48aa1f0110bea971708b8a562b1d
+SHA256: 2d7e1ab5eddf439954881d9f53d8c99ff7508754ce49de5250fab79808a85f63
+SHA512: a86045e378bd60490ee97a7047a732b49f715aa808621a2217575dac20a89828f8bb4b4717b0c86f91936eb0d0a69564aaffdfc7fb5f1cac58e3d1cf542e475e
+Homepage: https://metacpan.org/release/File-Find-Rule
+Description: module to search for files based on rules
+ File::Find::Rule is a Perl module which essentially provides an easy-to-use
+ interface to the popular module, File::Find. It provides a way to build rules
+ that specify desired file and directory names using a text-globbing syntax
+ (provided by Text::Glob). This makes it useful for simple tasks, like finding
+ all ".pm" files in a given directory.
+
+Package: libinih1
+Architecture: amd64
+Version: 55-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libinih
+Maintainer: Yangfl <mmyangfl@gmail.com>
+Installed-Size: 29
+Depends: libc6 (>= 2.4)
+Filename: pool/main/libi/libinih/libinih1_55-1_amd64.deb
+Size: 6684
+MD5sum: 7816519842b6ef21a5632c120dc096ef
+SHA1: a518b1c45cf68ed1d0e2379eb6f9ff59c41a06bd
+SHA256: 1286ddab2ef1050389e585ad3bfd0a0d9bdd26475003a33b4eec884bccd50477
+SHA512: 56ccfb3247d7bf188bffa00360252a9a60370c2b011d5d2c7debbb6be7e26e62f611f98c505045d221b32fad3274586fea495b116d3b3355fbba3dde161dc8db
+Homepage: https://github.com/benhoyt/inih
+Description: simple .INI file parser
+ inih (INI Not Invented Here) is a simple .INI file parser written in C.
+ It's only a couple of pages of code, and it was designed to be small and
+ simple, so it's good for embedded systems. It's also more or less
+ compatible with Python's ConfigParser style of .INI files, including
+ RFC 822-style multi-line syntax and name: value entries.
+
+Package: libjpeg62-turbo
+Architecture: amd64
+Version: 1:2.1.5-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libjpeg-turbo
+Maintainer: Ondřej Surý <ondrej@debian.org>
+Installed-Size: 677
+Provides: libjpeg62 (= 1:2.1.5-2)
+Depends: libc6 (>= 2.14)
+Conflicts: libjpeg62
+Replaces: libjpeg62
+Filename: pool/main/libj/libjpeg-turbo/libjpeg62-turbo_1%3a2.1.5-2_amd64.deb
+Size: 166332
+MD5sum: c43c12e2144cad5b82c10d63dcc57ecd
+SHA1: c3ae9bbc1795b588c8a05738e35b1b56f67ab7f4
+SHA256: 95ec30140789a342add8f8371ed018924de51b539056522b66f207b25cba9cad
+SHA512: 67ef9c7a83dd84eea853c6e67b7611051c6ba5d7eebff63001c882264fbc7b5d9ba22ed72e8a9e21715b1ea7f91e9e8a97c7c3766b96544a1458d34d21e382a1
+Homepage: https://www.libjpeg-turbo.org/
+Description: libjpeg-turbo JPEG runtime library
+ The libjpeg-turbo JPEG library is a library for handling JPEG files.
+ .
+ libjpeg-turbo is a JPEG image codec that uses SIMD instructions (MMX,
+ SSE2, NEON) to accelerate baseline JPEG compression and decompression
+ on x86, x86-64, and ARM systems.  The libjpeg-turbo JPEG library is
+ an API/ABI compatible with the IJG JPEG library.
+ .
+ This package contains the shared runtime library.
+
+Package: libnova-0.16-0
+Architecture: amd64
+Version: 0.16-5
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libnova
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 3606
+Depends: libc6 (>= 2.29)
+Filename: pool/main/libn/libnova/libnova-0.16-0_0.16-5_amd64.deb
+Size: 841004
+MD5sum: 9f436819766e51d79a7904a14c2c258c
+SHA1: d18e6799e9ac2cab79840142a9e94d4cc4b11150
+SHA256: 658e4fcb1ad59faaf6097b41f30ae46e2bc6cbf233b745b4e293050cdbda5040
+SHA512: c6a463ee909a4cbdc1e3483c033230f41838383a400cc29062839dc3424dcbd1c3421074a29411f26a4d92528c563533fcfcab8f152a5843406e5523b2e761d1
+Homepage: http://libnova.sourceforge.net/
+Description: celestial mechanics, astrometry and astrodynamics library
+ libnova is a general purpose, double precision, Celestial Mechanics,
+ Astrometry and Astrodynamics library.
+
+Package: libnsl2
+Architecture: amd64
+Version: 1.3.0-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libnsl
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Installed-Size: 127
+Depends: libc6 (>= 2.14), libtirpc3 (>= 1.0.2)
+Filename: pool/main/libn/libnsl/libnsl2_1.3.0-2_amd64.deb
+Size: 39480
+MD5sum: 35f670dd707691bfa65ec9ecec32d8a0
+SHA1: d2e24e17335facc26fbdf9a1847103a5ae703eae
+SHA256: c0d83437fdb016cb289436f49f28a36be44b3e8f1f2498c7e3a095f709c0d6f8
+SHA512: 7d2627b7df346cc48e62aff4ff2a12f69fe61d15d3ec3dc2af0b40637d3b6ed744a7e09b63b475eae450b168e8252c99b7686db6c782270b4488bde6a828df76
+Homepage: https://github.com/thkukuk/libnsl
+Description: Public client interface for NIS(YP) and NIS+
+ This package contains the libnsl library, which contains the public client
+ interface for NIS(YP) and NIS+. This code was formerly part of glibc, but is
+ now standalone to be able to link against TI-RPC for IPv6 support.
+
+Package: libnumber-compare-perl
+Architecture: all
+Version: 0.03-3
+Multi-Arch: foreign
+Priority: optional
+Section: perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 19
+Filename: pool/main/libn/libnumber-compare-perl/libnumber-compare-perl_0.03-3_all.deb
+Size: 6332
+MD5sum: f97849363c641a006ff21c5dd3f98f3c
+SHA1: fd77b9dd18b8e8f5fe35da8e5cbae649fa80f34d
+SHA256: cf95662e27037d92c582647400bb1ca7a6dfd2eb26eee5b968b23263cd4976dc
+SHA512: 05bddfcacff929cba4926fe07dbb7a21c4c5b575afae42cace68120e330e717f19ece88b398eaedc095fd03eb17f44432740c594e63f26ad703f318d33da7004
+Homepage: https://metacpan.org/release/Number-Compare
+Description: module for performing numeric comparisons in Perl
+ Number::Compare allows one to compile a simple comparison to an anonymous
+ subroutine, which can then be called with a value to be tested against.
+ .
+ The advantage of using this module is that it understands both the SI prefixes
+ 'k', 'M', and 'G', as well as the IEC binary prefixes 'Ki', 'Mi' and 'Gi'.
+
+Package: libogg0
+Architecture: amd64
+Version: 1.3.5-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libogg
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 61
+Depends: libc6 (>= 2.14)
+Filename: pool/main/libo/libogg/libogg0_1.3.5-3_amd64.deb
+Size: 23412
+MD5sum: 622d11b074b630a697ad0c84ac25237f
+SHA1: e9a614d2acaf06d92dbfa615c5f9a78e74bb385e
+SHA256: f67acb0477aed0354f411172e37af338f3ac6bd4f3766134a2cf5539884b5a28
+SHA512: 117ec343f50570a5f17829bb08b371c57fc0650096ef0fc9b5bddf29af38bac24493ac593fb435251a8afce98c38d0b6c450bf3dc555fd04ca4d8e3ea273234f
+Homepage: https://xiph.org/ogg/
+Description: Ogg bitstream library
+ Libogg is a library for manipulating ogg bitstreams.  It handles
+ both making ogg bitstreams and getting packets from ogg bitstreams.
+
+Package: libpng16-16
+Architecture: amd64
+Version: 1.6.39-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libpng1.6
+Maintainer: Maintainers of libpng1.6 packages <libpng1.6@packages.debian.org>
+Installed-Size: 416
+Depends: libc6 (>= 2.29), zlib1g (>= 1:1.2.11.dfsg)
+Filename: pool/main/libp/libpng1.6/libpng16-16_1.6.39-2_amd64.deb
+Size: 275508
+MD5sum: 75ed53f30fb73cf2d197d5a87fed907b
+SHA1: 43b7f9670114112a219472e27c175892384d3f1d
+SHA256: dc32727dca9a87ba317da7989572011669f568d10159b9d8675ed7aedd26d686
+SHA512: 02e508bc3e8ee24bf7d1d9eb8f597adece35fd85a79ccab50ded5614f824763be583749654d50700c2a01c0f44663ad0e76a89b7fca86711c8af76cec65fc3b9
+Homepage: http://libpng.org/pub/png/libpng.html
+Description: PNG library - runtime (version 1.6)
+ libpng is a library implementing an interface for reading and writing
+ PNG (Portable Network Graphics) format files.
+ .
+ This package contains the runtime library files needed to run software
+ using libpng.
+
+Package: libpsl5
+Architecture: amd64
+Version: 0.21.2-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libpsl
+Maintainer: Tim Rühsen <tim.ruehsen@gmx.de>
+Installed-Size: 96
+Depends: libidn2-0 (>= 0.16), libc6 (>= 2.33), libunistring2 (>= 0.9.7)
+Recommends: publicsuffix (>= 20150507)
+Filename: pool/main/libp/libpsl/libpsl5_0.21.2-1_amd64.deb
+Size: 58684
+MD5sum: 37ebfb57fdbf01631629ee9f36c8b478
+SHA1: 5f166223c231b245d50f3021fbb22d43f683aa04
+SHA256: 4f0d35610204e4e754b057748719744114621f2f6f4202d846c314860a981afb
+SHA512: 34e4241eef42f4fdf674cc28ae832b03d9db62e92f0bdd19c72ca1b3b27bddeeaf2e13d7fbbfae1a246cb83c5b45b0b5961da4feb3d53514033e1cbe6fe910ad
+Homepage: https://github.com/rockdaboot/libpsl
+Description: Library for Public Suffix List (shared libraries)
+ Libpsl allows checking domains against the Public Suffix List.
+ It can be used to avoid privacy-leaking 'super-cookies',
+ 'super domain' certificates, for domain highlighting purposes
+ sorting domain lists by site and more.
+ .
+ Please see https://publicsuffix.org for more detailed information.
+ .
+ This package contains runtime libraries.
+
+Package: libssh2-1
+Architecture: amd64
+Version: 1.10.0-3+b1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libssh2 (1.10.0-3)
+Maintainer: Nicolas Mora <babelouest@debian.org>
+Installed-Size: 357
+Depends: libc6 (>= 2.14), libssl3 (>= 3.0.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/libs/libssh2/libssh2-1_1.10.0-3+b1_amd64.deb
+Size: 178704
+MD5sum: 14bb6443448b5fc0477e7c76ca9ba4a5
+SHA1: 5ca5f984be879f04ec1a997a87eea7238f60bfe3
+SHA256: d20a3ee34fa84ad8bd381e8be6e9c2c2ea32347cff5e1169c10e978d43f54f24
+SHA512: 6eb4db035a5030d93d9767586b92fb31ba638f1e40f3e3f7fdab984cffa2b7a15f8bafcbcae20a141ba325095f6426223d955addd7cb3211254b19a0d2aed9ba
+Homepage: https://libssh2.org/
+Description: SSH2 client-side library
+ libssh2 is a client-side C library implementing the SSH2 protocol.
+ It supports regular terminal, SCP and SFTP (v1-v5) sessions;
+ port forwarding, X11 forwarding; password, key-based and
+ keyboard-interactive authentication.
+ .
+ This package contains the runtime library.
+
+Package: libtext-glob-perl
+Architecture: all
+Version: 0.11-3
+Multi-Arch: foreign
+Priority: optional
+Section: perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 22
+Filename: pool/main/libt/libtext-glob-perl/libtext-glob-perl_0.11-3_all.deb
+Size: 7676
+MD5sum: 07eb90af134b3dd04efceb8ffd6f51e2
+SHA1: f1e8630e90093f9f25edfe3545486d52b48a2889
+SHA256: b0f1a40c5b26f4e4c83a4f8e1768fcf50ae9aac84b7f807ccb38123b50396f64
+SHA512: a2994ad7257f693782a155723cbe5bd03e4dc547976442065923021d93b7893fe5f64281c350ec692417edf50e0d848b7f4b92a44ecf141506c6f037d3bcf5ea
+Homepage: https://metacpan.org/release/Text-Glob
+Description: Perl module for matching globbing patterns against text
+ Text::Glob implements glob(3) style matching that can be used to match
+ against text, rather than fetching names from a filesystem.  If you
+ want to do full file globbing use the File::Glob module instead.
+
+Package: libtheora0
+Architecture: amd64
+Version: 1.1.1+dfsg.1-16.1+b1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libtheora (1.1.1+dfsg.1-16.1)
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 649
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libogg0 (>= 1.1.0)
+Filename: pool/main/libt/libtheora/libtheora0_1.1.1+dfsg.1-16.1+b1_amd64.deb
+Size: 153800
+MD5sum: 4be6cfffd01035843d631f89907cfb7c
+SHA1: 720ea67b95e179991b91e515c54a42c324d2464c
+SHA256: 7de1d0687c83a28b3d15d901852e9536fdf8d22f89cb8d572317cb6094a4eb52
+SHA512: 127aa32a2f33ace9d767f8bfb6aed94e0889bef72b8bd4925e8efaa560eefdb05a9efca88eb43e97e48cb4557f0b5dcd5b12b0289e3350824aef5abe0fcdbdc7
+Homepage: https://www.theora.org/
+Description: Theora Video Compression Codec
+ Theora is an open video codec being developed by the Xiph.org Foundation as
+ part of their Ogg project. Theora is originally derived from On2's VP3 codec,
+ and has improved on it significantly with the merging of code from the
+ Thusnelda branch.
+
+Package: liburcu8
+Architecture: amd64
+Version: 0.13.2-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: liburcu
+Maintainer: Jon Bernard <jbernard@debian.org>
+Installed-Size: 344
+Depends: libc6 (>= 2.34)
+Filename: pool/main/libu/liburcu/liburcu8_0.13.2-1_amd64.deb
+Size: 70788
+MD5sum: 7abf39cd47e6d2fe53287ba7a87b2651
+SHA1: 6505446093fd8f17dbf811f823b66e70315719ad
+SHA256: 8647049698200fb5e20a130a09059b51878bb98643a120c7b0c6cbfd3f9b42dd
+SHA512: 7b5ab0874eb10a122cfef7db3bf5a20e22d59a7a301aaf576c5ee4d1e3ba8539dbfed756f25d1a8d02cfe493a4f514039c7c2adecf6a4d9bb9409d6d0ff77cb5
+Homepage: https://liburcu.org/
+Description: userspace RCU (read-copy-update) library
+ This data synchronization library provides read-side access which scales
+ linearly with the number of cores. It does so by allowing multiples copies of
+ a given data structure to live at the same time, and by monitoring the data
+ structure accesses to detect grace periods after which memory reclamation is
+ possible.
+
+Package: libusb-1.0-0
+Architecture: amd64
+Version: 2:1.0.26-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libusb-1.0
+Maintainer: Aurelien Jarno <aurel32@debian.org>
+Installed-Size: 155
+Depends: libc6 (>= 2.17), libudev1 (>= 183)
+Filename: pool/main/libu/libusb-1.0/libusb-1.0-0_2%3a1.0.26-1_amd64.deb
+Size: 62592
+MD5sum: 11967b80d74547874dd2e4ed22ae70c6
+SHA1: a883523a1eb8110aeca4b93eac7d04e25ac48bfb
+SHA256: 0a8a6c4a7d944538f2820cbde2a313f2fe6f94c21ffece9e6f372fc2ab8072e1
+SHA512: 7590bf835a4ff11e3b9ce2f7edd0262430418e9ed29605572f29d5e0fbd572f645f5972cbb88a98d2b8fd6bc1e534d494b6772a0613d1408e0c7968729e3e327
+Homepage: http://www.libusb.info
+Description: userspace USB programming library
+ Library for programming USB applications without the knowledge
+ of Linux kernel internals.
+ .
+ This package contains what you need to run programs that use this
+ library.
+
+Package: libx11-6
+Architecture: amd64
+Version: 2:1.8.4-2+deb12u2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libx11
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1562
+Depends: libc6 (>= 2.34), libxcb1 (>= 1.11.1), libx11-data
+Breaks: libx11-xcb1 (<< 2:1.7.0-2)
+Filename: pool/main/libx/libx11/libx11-6_2%3a1.8.4-2+deb12u2_amd64.deb
+Size: 759544
+MD5sum: 0c6481c14ab6815f2d2983310157421e
+SHA1: 05e5afb3b9a31e783e919853793c71e0bcc4cd7c
+SHA256: d88c973e79fd9b65838d77624142952757e47a6eb1a58602acf0911cf35989f4
+SHA512: bfc6b79aac3f7768a3aa0cffedfb7c91faee6c2515bd2225210721c562660f10e42b9c8c90997adb291f97cb96964108479a81a790108966dd6585534ad9d35c
+Description: X11 client-side library
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-data
+Architecture: all
+Version: 2:1.8.4-2+deb12u2
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: libx11
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1577
+Filename: pool/main/libx/libx11/libx11-data_2%3a1.8.4-2+deb12u2_all.deb
+Size: 291884
+MD5sum: 85ab85cc2396aafb5a525bac782d8ec9
+SHA1: af3a6ad140e2cadac63689e99793e8662e092e97
+SHA256: 987a848aeb1c358e4186368871b0526f10bb14c6b53214ab3bf8b69abb830191
+SHA512: b56f840a6465b1c512eeaf1ca7ec1e17eebd8174c05b3efce4acf946029eaf93f92c0fb6b2887c2e182b57525b0aa2798b4c4275c7998b35436d90db5f007981
+Description: X11 client-side library
+ This package provides the locale data files for libx11.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libxau6
+Architecture: amd64
+Version: 1:1.0.9-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libxau
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 42
+Depends: libc6 (>= 2.4)
+Filename: pool/main/libx/libxau/libxau6_1%3a1.0.9-1_amd64.deb
+Size: 19720
+MD5sum: 317e939fdeb6d7b0dbd9eecba8e5cd11
+SHA1: 51a5b4ec514a31b3192c9e6614988828277b5f52
+SHA256: 679db1c4579ec7c61079adeaae8528adeb2e4bf5465baa6c56233b995d714750
+SHA512: adb4ee3a5e918b77c58ac4b62278122b295dd7c19b36910db1b2386023d6e7fc65e0962e46651c34d30e1ca23954dbf487a90548109f648276bc741e5b2f42e0
+Description: X11 authorisation library
+ This package provides the main interface to the X11 authorisation handling,
+ which controls authorisation for X connections, both client-side and
+ server-side.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libxau
+
+Package: libxcb-render0
+Architecture: amd64
+Version: 1.15-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libxcb
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 176
+Depends: libc6 (>= 2.14), libxcb1 (>= 1.8)
+Filename: pool/main/libx/libxcb/libxcb-render0_1.15-1_amd64.deb
+Size: 115012
+MD5sum: 2d439ba4286c2ed03fbb8349084bf2ef
+SHA1: 41ddc7b13f812aea41e42e163d4ff479e4c91bae
+SHA256: 29c32cc76be9393f409378be79a0f534b9f07dea06ae52fa80a7f27e298de239
+SHA512: fb7101c488841701a11401de5964f6840b798df2546533ade38c3e9b053ce6ef8d36ade3860c2393e4f92772511aff9db22583b709d346328b06999bcb9d950b
+Homepage: https://xcb.freedesktop.org
+Description: X C Binding, render extension
+ This package contains the library files needed to run software using
+ libxcb-render, the render extension for the X C Binding.
+ .
+ The XCB library provides an interface to the X Window System protocol,
+ designed to replace the Xlib interface.  XCB provides several advantages over
+ Xlib:
+ .
+  * Size: small library and lower memory footprint
+  * Latency hiding: batch several requests and wait for the replies later
+  * Direct protocol access: one-to-one mapping between interface and protocol
+  * Thread support: access XCB from multiple threads, with no explicit locking
+  * Easy creation of new extensions: automatically generates interface from
+    machine-parsable protocol descriptions
+
+Package: libxcb-shm0
+Architecture: amd64
+Version: 1.15-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libxcb
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 126
+Depends: libc6 (>= 2.4), libxcb1 (>= 1.12)
+Filename: pool/main/libx/libxcb/libxcb-shm0_1.15-1_amd64.deb
+Size: 105472
+MD5sum: ba6aaee1156c74780ad00539cb23a936
+SHA1: cb132dd7c282a5dedd398487dddb217482757915
+SHA256: c1afcef29dc78b95c475159b181b28b1dedaf1d5aa06efd2fa6d90c73bfbe0e5
+SHA512: 23538f584c19f12275cb9ba16924ee4e1937aa26e4878f54dfb7a745379f3129f531f295d47b9c339290ee189ec04f7315e294fd72347492e6bbc16c11fd5540
+Homepage: https://xcb.freedesktop.org
+Description: X C Binding, shm extension
+ This package contains the library files needed to run software using
+ libxcb-shm, the shm extension for the X C Binding.
+ .
+ The XCB library provides an interface to the X Window System protocol,
+ designed to replace the Xlib interface.  XCB provides several advantages over
+ Xlib:
+ .
+  * Size: small library and lower memory footprint
+  * Latency hiding: batch several requests and wait for the replies later
+  * Direct protocol access: one-to-one mapping between interface and protocol
+  * Thread support: access XCB from multiple threads, with no explicit locking
+  * Easy creation of new extensions: automatically generates interface from
+    machine-parsable protocol descriptions
+
+Package: libxcb1
+Architecture: amd64
+Version: 1.15-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libxcb
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 296
+Depends: libc6 (>= 2.14), libxau6 (>= 1:1.0.9), libxdmcp6
+Breaks: alsa-utils (<< 1.0.24.2-5)
+Filename: pool/main/libx/libxcb/libxcb1_1.15-1_amd64.deb
+Size: 144052
+MD5sum: f35728a21c52c5e591aff7baa950d56a
+SHA1: 8c57257750c7706504cd33672748414c768faa1d
+SHA256: fdc61332a3892168f3cc9cfa1fe9cf11a91dc3e0acacbc47cbc50ebaa234cc71
+SHA512: cb5b3b85cc4e4e49a370bc0f1c953f5e3267dfdcbe2ea25cb1d9aeb2ecaca10577e22576eae154afc7f8a1567b23af104a1b19aca4e893aabbd9a75febc9391f
+Homepage: https://xcb.freedesktop.org
+Description: X C Binding
+ This package contains the library files needed to run software using libxcb,
+ the X C Binding.
+ .
+ The XCB library provides an interface to the X Window System protocol,
+ designed to replace the Xlib interface.  XCB provides several advantages over
+ Xlib:
+ .
+  * Size: small library and lower memory footprint
+  * Latency hiding: batch several requests and wait for the replies later
+  * Direct protocol access: one-to-one mapping between interface and protocol
+  * Thread support: access XCB from multiple threads, with no explicit locking
+  * Easy creation of new extensions: automatically generates interface from
+    machine-parsable protocol descriptions
+
+Package: libxdmcp6
+Architecture: amd64
+Version: 1:1.1.2-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libxdmcp
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 53
+Depends: libbsd0 (>= 0.2.0), libc6 (>= 2.4)
+Filename: pool/main/libx/libxdmcp/libxdmcp6_1%3a1.1.2-3_amd64.deb
+Size: 26344
+MD5sum: 4a27341c3dfb3067bc473fc241144ca9
+SHA1: 46efd52e51c3e4ed033317620273ece367d4e700
+SHA256: ecb8536f5fb34543b55bb9dc5f5b14c9dbb4150a7bddb3f2287b7cab6e9d25ef
+SHA512: a7deef175d2de420df2ffda829a9fd1f91252fd7599a4c4aa0df7e49f3431e079fd4c504f8d8c1d7eb93b67b1c2dfbe9693f35a021bdd07deb60ece6d1104c38
+Description: X11 Display Manager Control Protocol library
+ This package provides the main interface to the X11 display manager control
+ protocol library, which allows for remote logins to display managers.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXdmcp
+
+Package: libxext6
+Architecture: amd64
+Version: 2:1.3.4-1+b1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libxext (2:1.3.4-1)
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 132
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0)
+Filename: pool/main/libx/libxext/libxext6_2%3a1.3.4-1+b1_amd64.deb
+Size: 52932
+MD5sum: 73b96dd0229e3dc10ff7409521fb0761
+SHA1: 6c34d749ab693732515ac9ebb1334c8884ef0219
+SHA256: 504b7be9d7df4f6f4519e8dd4d6f9d03a9fb911a78530fa23a692fba3058cba6
+SHA512: 676d1da110ab6f6706fceb96d6aacd3a5a74a551eba2527a10c9926f4a99f63155784921824de2d8eeff8768eb127fe0db99f2e930b70e4946cbeb83506a79dc
+Description: X11 miscellaneous extension library
+ libXext provides an X Window System client interface to several extensions to
+ the X protocol.
+ .
+ The supported protocol extensions are:
+  - DOUBLE-BUFFER (DBE), the Double Buffer extension;
+  - DPMS, the VESA Display Power Management System extension;
+  - Extended-Visual-Information (EVI), an extension for gathering extra
+    information about the X server's visuals;
+  - LBX, the Low Bandwidth X extension;
+  - MIT-SHM, the MIT X client/server shared memory extension;
+  - MIT-SUNDRY-NONSTANDARD, a miscellaneous extension by MIT;
+  - Multi-Buffering, the multi-buffering and stereo display extension;
+  - SECURITY, the X security extension;
+  - SHAPE, the non-rectangular shaped window extension;
+  - SYNC, the X synchronization extension;
+  - TOG-CUP, the Open Group's Colormap Utilization extension;
+  - XC-APPGROUP, the X Consortium's Application Group extension;
+  - XC-MISC, the X Consortium's resource ID querying extension;
+  - XTEST, the X test extension (this is one of two client-side
+    implementations; the other is in the libXtst library, provided by the
+    libxtst6 package);
+ .
+ libXext also provides a small set of utility functions to aid authors of
+ client APIs for X protocol extensions.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXext
+
+Package: libxrender1
+Architecture: amd64
+Version: 1:0.9.10-1.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libxrender
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 78
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0)
+Filename: pool/main/libx/libxrender/libxrender1_1%3a0.9.10-1.1_amd64.deb
+Size: 33228
+MD5sum: 93b87c3eed7cc375e93b1fcb8f7d754b
+SHA1: 187b47b4dde2576ce0edb0b9878d06b943911d48
+SHA256: b2a6d160578f359220101947c8d67059b44704a251e688de1d0b744fefedfd1a
+SHA512: 26bb22c99dfc406ac1dfbe92df07f9e053371c7d7b4692a41649f2cfb08bdf79c0b263c79c3165bc4c7c781f338334df119bcc293658340708a2fd2c5530d7a4
+Description: X Rendering Extension client library
+ The X Rendering Extension (Render) introduces digital image composition as
+ the foundation of a new rendering model within the X Window System.
+ Rendering geometric figures is accomplished by client-side tessellation into
+ either triangles or trapezoids.  Text is drawn by loading glyphs into the
+ server and rendering sets of them.  The Xrender library exposes this
+ extension to X clients.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXrender
+
+Package: mdadm
+Architecture: amd64
+Version: 4.2-5
+Priority: optional
+Section: admin
+Maintainer: Daniel Baumann <daniel.baumann@progress-linux.org>
+Installed-Size: 1236
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.34), libudev1 (>= 183), debconf, lsb-base, udev
+Recommends: default-mta | mail-transport-agent, kmod | module-init-tools
+Suggests: dracut-core
+Filename: pool/main/m/mdadm/mdadm_4.2-5_amd64.deb
+Size: 443056
+MD5sum: 46d70af0aef35e2c43537310a92e8073
+SHA1: 77be81434187d5e7453a872b7b4ec6ee936b2943
+SHA256: 93ac76fa9aa5b97256688e067b0a31c11aadf63321d6dbdf486e37de2338d454
+SHA512: a489389dd0270fb054c3c943260c8a0a57375be04028bd81fe64238fbf1f9f70e64e41dbf7beb39b1afb8272c48586e7a6ffc2ef3d91e3fc6b30944e8e2a870c
+Homepage: https://raid.wiki.kernel.org/index.php/Linux_Raid
+Description: Tool to administer Linux MD arrays (software RAID)
+ The mdadm utility can be used to create, manage, and monitor MD
+ (multi-disk) arrays for software RAID or multipath I/O.
+ .
+ This package automatically configures mdadm to assemble arrays during the
+ system startup process. If not needed, this functionality can be disabled.
+
+Package: media-types
+Architecture: all
+Version: 10.0.0
+Multi-Arch: foreign
+Priority: standard
+Section: net
+Maintainer: Mime-Support Packagers <team+debian-mimesupport-packagers@tracker.debian.org>
+Installed-Size: 92
+Breaks: mime-support (<< 3.65)
+Replaces: mime-support (<< 3.65)
+Filename: pool/main/m/media-types/media-types_10.0.0_all.deb
+Size: 26136
+MD5sum: 90fd2adb74d07dcc8875d93b1fa12833
+SHA1: 6b9da8f11457d10fd06f7c216f2648457e17f417
+SHA256: aaa46dcb3b39948ae2e0fdb72cfcb2f48c0b59f19785a3da8045c05eb19955dd
+SHA512: 38b57b0a3fc19117bf25950de0c6f46f768d8ebb4b2a2ab054432fa2455f478778148e67fdf83a7a44550c285f5e9284ec31b0b264462c1dcb2e19cbeebafb3f
+Description: List of standard media types and their usual file extension
+ This package installs the configuration file /etc/mime.types, that lists
+ standard media types (originally known as "MIME" types) and their usual file
+ extension.  This provides a simple way for programs to have a first guess at a
+ file's content.  On standard Debian desktop systems, one will also find more
+ sophisticated tools, for instance provided by the "file" and "xdg-utils"
+ packages.
+ .
+ The /etc/mime.types file is compiled by hand using mostly information provided
+ by the Internet Assigned Numbers Authority (IANA).
+
+Package: mokutil
+Architecture: amd64
+Version: 0.6.0-2
+Priority: optional
+Section: admin
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 80
+Depends: libc6 (>= 2.33), libcrypt1 (>= 1:4.1.0), libefivar1 (>= 37), libkeyutils1 (>= 1.5.9), libssl3 (>= 3.0.0)
+Filename: pool/main/m/mokutil/mokutil_0.6.0-2_amd64.deb
+Size: 26912
+MD5sum: 67fec23e1bee010fc5acbad09f314e0b
+SHA1: 4626dc068aff298ee9c2cada52957267d21c8a0c
+SHA256: 54629460afdedd99d7fdafe2cb6ad4d419268edbca10959511d2b1903621963e
+SHA512: b8142de55702f6acd9f44f5e33f9cfd4376e5a6904833f2d242210b3ff720d377fa462c4102dc8a408247d53dbf79830b34d619c71c3f344252082230e30c956
+Description: tools for manipulating machine owner keys
+ This program provides the means to enroll and erase the machine owner
+ keys (MOK) stored in the database of shim.
+
+Package: libnghttp2-14
+Architecture: amd64
+Version: 1.52.0-1+deb12u1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: nghttp2
+Maintainer: Tomasz Buchert <tomasz@debian.org>
+Installed-Size: 220
+Depends: libc6 (>= 2.17)
+Filename: pool/main/n/nghttp2/libnghttp2-14_1.52.0-1+deb12u1_amd64.deb
+Size: 72444
+MD5sum: 2b705b9f8a7da13f789bee7e6d4d463c
+SHA1: f7edaa178abf9858d1a087bc60dd821a9c9937df
+SHA256: ee690db978151ae372dcede4bba26c299d985046e6dc708bb907961901b73b6a
+SHA512: 0da6bbdbe0254af4101ffd250657fb7c837c6a2ddc15b56fa3caa7e55148c5198ccb837e6fe7729230de3e15c3e105f64805eff09dc7f4ca8391b605f8fcefa5
+Homepage: https://nghttp2.org/
+Description: library implementing HTTP/2 protocol (shared library)
+ This is an implementation of the Hypertext Transfer Protocol version
+ 2 in C. The framing layer of HTTP/2 is implemented as a reusable C
+ library.
+ .
+ This package installs a shared library.
+
+Package: firmware-ath9k-htc
+Architecture: all
+Version: 1.4.0-108-gd856466+dfsg1-1.3+deb12u1
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: open-ath9k-htc-firmware
+Maintainer: John Scott <jscott@posteo.net>
+Installed-Size: 153
+Breaks: firmware-atheros (<= 20230210-1)
+Replaces: firmware-atheros (<= 20230210-1)
+Filename: pool/main/o/open-ath9k-htc-firmware/firmware-ath9k-htc_1.4.0-108-gd856466+dfsg1-1.3+deb12u1_all.deb
+Size: 46976
+MD5sum: 1f5b2f49a0caf451b357372a5c2858e3
+SHA1: 75e123ad4ec6f9d73f4d3e7495ab35d66c309499
+SHA256: 10968942e7587c490dae779a26ffde907b20caa8244d3c0eb5901e564dd10326
+SHA512: db2139c909eaa73c2c7b004399fccf0e08a97a968d68573344d7ad817e654e1d21e9ff03dc38b40bd05687c7264145fd05995313a0608abce0ad1fe7b4172e60
+Homepage: https://github.com/qca/open-ath9k-htc-firmware
+Description: firmware for AR7010 and AR9271 USB wireless adapters
+ The Qualcomm Atheros AR7010 and AR9271 chipsets are used in USB
+ wireless adapters which are 802.11n-capable. This package contains
+ the free firmware they require to function, and which gets loaded
+ onto the devices during use.
+
+Package: libldap-2.5-0
+Architecture: amd64
+Version: 2.5.13+dfsg-5
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: openldap
+Maintainer: Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org>
+Installed-Size: 553
+Depends: libc6 (>= 2.34), libgnutls30 (>= 3.7.5), libsasl2-2 (>= 2.1.28+dfsg)
+Recommends: libldap-common
+Conflicts: ldap-utils (<= 2.1.23-1)
+Replaces: libldap-2.3-0, libldap2
+Filename: pool/main/o/openldap/libldap-2.5-0_2.5.13+dfsg-5_amd64.deb
+Size: 183248
+MD5sum: aa52ea68ca3ad4e9a9acc863fa70343a
+SHA1: b7837c3a177a951bb43644b0e43db78565dcf500
+SHA256: 4b6c30f6554149c594628d945edc6003f0eea8d0cc1341638c0e71375db147ed
+SHA512: 6ad40870e0fc642c9da312899263a212f88250cae13f3e855e45c4a8b33bcd7ab3b5a03e17db04fcdd4642f940a7d6759a8fd00e370d2ab9f85f863e36b905bf
+Homepage: https://www.openldap.org/
+Description: OpenLDAP libraries
+ These are the run-time libraries for the OpenLDAP (Lightweight Directory
+ Access Protocol) servers and clients.
+
+Package: libperl5.36
+Architecture: amd64
+Version: 5.36.0-7+deb12u1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: perl
+Maintainer: Niko Tyni <ntyni@debian.org>
+Installed-Size: 28862
+Depends: libbz2-1.0, libc6 (>= 2.35), libcrypt1 (>= 1:4.1.0), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.21), zlib1g (>= 1:1.2.2.3), perl-modules-5.36 (>= 5.36.0-7+deb12u1)
+Suggests: sensible-utils
+Breaks: libcompress-raw-bzip2-perl (<< 2.103), libcompress-raw-zlib-perl (<< 2.105), libcompress-zlib-perl (<< 2.106), libdigest-md5-perl (<< 2.58), libdigest-sha-perl (<< 6.02), libencode-perl (<< 3.17), libfilter-perl (<< 1.60), libio-compress-base-perl (<< 2.106), libio-compress-bzip2-perl (<< 2.106), libio-compress-perl (<< 2.106), libio-compress-zlib-perl (<< 2.106), libmime-base64-perl (<< 3.16), libstorable-perl (<< 3.26), libsys-syslog-perl (<< 0.36), libthreads-perl (<< 2.27), libthreads-shared-perl (<< 1.64), libtime-hires-perl (<< 1.9770), libtime-piece-perl (<< 1.3401)
+Replaces: libarchive-tar-perl (<= 1.38-2), libcompress-raw-bzip2-perl (<< 2.103), libcompress-raw-zlib-perl (<< 2.105), libcompress-zlib-perl (<< 2.106), libdigest-md5-perl (<< 2.58), libdigest-sha-perl (<< 6.02), libencode-perl (<< 3.17), libio-compress-base-perl (<< 2.106), libio-compress-bzip2-perl (<< 2.106), libio-compress-perl (<< 2.106), libio-compress-zlib-perl (<< 2.106), libmime-base64-perl (<< 3.16), libmodule-corelist-perl (<< 2.14-2), libstorable-perl (<< 3.26), libsys-syslog-perl (<< 0.36), libthreads-perl (<< 2.27), libthreads-shared-perl (<< 1.64), libtime-hires-perl (<< 1.9770), libtime-piece-perl (<< 1.3401), perl (<< 5.22.0~), perl-base (<< 5.22.0~)
+Filename: pool/main/p/perl/libperl5.36_5.36.0-7+deb12u1_amd64.deb
+Size: 4217504
+MD5sum: 425c1a1ba4ab0afb863a9793c5bfc5a4
+SHA1: 65f4ff8e57ab8e56a83d886494dd44924b27d8a0
+SHA256: 4b48b8f0b06c2c667d52117edcef69af6896bcfe69a4f4bde47b89590b83875e
+SHA512: 0e2fa71733f982ef504fce2da0adc0319d6c7fd62ff03e71af3ccbc4251bb3f71fee0c74fdb705db0f529992232755b5df85d1445ce0dd8acb40125991355708
+Homepage: http://dev.perl.org/perl5/
+Description: shared Perl library
+ This package contains the shared Perl library, used by applications
+ which embed a Perl interpreter.
+ .
+ It also contains the architecture-dependent parts of the standard
+ library (and depends on perl-modules-5.36 which contains the
+ architecture-independent parts).
+
+Package: perl-modules-5.36
+Architecture: all
+Version: 5.36.0-7+deb12u1
+Multi-Arch: foreign
+Priority: optional
+Section: libs
+Source: perl
+Maintainer: Niko Tyni <ntyni@debian.org>
+Installed-Size: 17816
+Provides: perl-modules
+Pre-Depends: dpkg (>= 1.17.17)
+Depends: perl-base (>= 5.36.0-1)
+Recommends: perl (>= 5.36.0-1)
+Conflicts: perl-modules (<< 5.22.0~)
+Breaks: libansicolor-perl (<< 5.01), libarchive-tar-perl (<< 2.40), libattribute-handlers-perl (<< 1.02), libautodie-perl (<< 2.34), libcpan-meta-perl (<< 2.150010), libcpan-meta-requirements-perl (<< 2.140), libcpan-meta-yaml-perl (<< 0.018), libdigest-perl (<< 1.20), libexperimental-perl (<< 0.028), libextutils-cbuilder-perl (<< 0.280236), libextutils-command-perl (<< 7.64), libextutils-install-perl (<< 2.20), libextutils-parsexs-perl (<< 3.450000), libfile-spec-perl (<< 3.8400), libhttp-tiny-perl (<< 0.080), libi18n-langtags-perl (<< 0.45), libio-zlib-perl (<< 1.11), libjson-pp-perl (<< 4.07000), liblocale-maketext-perl (<< 1.31), liblocale-maketext-simple-perl (<< 0.21.01), libmath-bigint-perl (<< 1.999830), libmath-complex-perl (<< 1.5902), libmodule-corelist-perl (<< 5.20220520), libmodule-load-conditional-perl (<< 0.74), libmodule-load-perl (<< 0.36), libmodule-metadata-perl (<< 1.000037), libnet-perl (<< 1:3.14), libnet-ping-perl (<< 2.74), libparams-check-perl (<< 0.38), libparent-perl (<< 0.238), libparse-cpan-meta-perl (<< 2.150010), libperl-ostype-perl (<< 1.010), libpod-escapes-perl (<< 1.07), libpod-simple-perl (<< 3.43), libtest-harness-perl (<< 3.44), libtest-simple-perl (<< 1.302190), libtest-tester-perl (<< 1.302190), libtest-use-ok-perl (<< 1.302190), libtext-balanced-perl (<< 2.04), libthread-queue-perl (<< 3.14), libtime-local-perl (<< 1.3000), libunicode-collate-perl (<< 1.31), libversion-perl (<< 1:0.9929), maildirsync (<< 1.2-2.1), perl (<< 5.36.0~), podlators-perl (<< 4.14)
+Replaces: libansicolor-perl (<< 5.01), libarchive-tar-perl (<< 2.40), libattribute-handlers-perl (<< 1.02), libautodie-perl (<< 2.34), libcpan-meta-perl (<< 2.150010), libcpan-meta-requirements-perl (<< 2.140), libcpan-meta-yaml-perl (<< 0.018), libdigest-perl (<< 1.20), libexperimental-perl (<< 0.028), libextutils-cbuilder-perl (<< 0.280236), libextutils-command-perl (<< 7.64), libextutils-install-perl (<< 2.20), libextutils-parsexs-perl (<< 3.450000), libfile-spec-perl (<< 3.8400), libhttp-tiny-perl (<< 0.080), libi18n-langtags-perl (<< 0.45), libio-zlib-perl (<< 1.11), libjson-pp-perl (<< 4.07000), liblocale-maketext-perl (<< 1.31), liblocale-maketext-simple-perl (<< 0.21.01), libmath-bigint-perl (<< 1.999830), libmath-complex-perl (<< 1.5902), libmodule-corelist-perl (<< 5.20220520), libmodule-load-conditional-perl (<< 0.74), libmodule-load-perl (<< 0.36), libmodule-metadata-perl (<< 1.000037), libnet-perl (<< 1:3.14), libnet-ping-perl (<< 2.74), libparams-check-perl (<< 0.38), libparent-perl (<< 0.238), libparse-cpan-meta-perl (<< 2.150010), libperl-ostype-perl (<< 1.010), libpod-escapes-perl (<< 1.07), libpod-simple-perl (<< 3.43), libtest-harness-perl (<< 3.44), libtest-simple-perl (<< 1.302190), libtest-tester-perl (<< 1.302190), libtest-use-ok-perl (<< 1.302190), libtext-balanced-perl (<< 2.04), libthread-queue-perl (<< 3.14), libtime-local-perl (<< 1.3000), libunicode-collate-perl (<< 1.31), libversion-perl (<< 1:0.9929), perl-base (<< 5.22.0~), perl-modules, podlators-perl (<< 4.14)
+Filename: pool/main/p/perl/perl-modules-5.36_5.36.0-7+deb12u1_all.deb
+Size: 2814840
+MD5sum: 1f885d42fc26a38efa6c0ed3c166335d
+SHA1: 5c7f2ccafcec2c9267f00446c66224d1fc6344db
+SHA256: 9b8223674661ead1836ce21966f7e4511a3a943c1b87c02ea92ec17ed2c3f2cf
+SHA512: bce324883c700bc2940413a6936d5a5ff23c049c415260e70d5c5316197d587e1eceb319020202b29c7c0e7a07bfaf5f7f9319eed49916f4dc206d14e7e77e28
+Homepage: http://dev.perl.org/perl5/
+Description: Core Perl modules
+ Architecture independent Perl modules.  These modules are part of Perl and
+ required if the `perl' package is installed.
+ .
+ Note that this package only exists to save archive space and should be
+ considered an internal implementation detail of the `perl' package.
+ Other packages should not depend on `perl-modules-5.36' directly, they
+ should use `perl' (which depends on `perl-modules-5.36') instead.
+
+Package: perl
+Architecture: amd64
+Version: 5.36.0-7+deb12u1
+Multi-Arch: allowed
+Priority: standard
+Section: perl
+Maintainer: Niko Tyni <ntyni@debian.org>
+Installed-Size: 669
+Provides: libansicolor-perl (= 5.01), libarchive-tar-perl (= 2.40), libattribute-handlers-perl (= 1.02), libautodie-perl (= 2.34), libcompress-raw-bzip2-perl (= 2.103), libcompress-raw-zlib-perl (= 2.105), libcompress-zlib-perl (= 2.106), libcpan-meta-perl (= 2.150010), libcpan-meta-requirements-perl (= 2.140), libcpan-meta-yaml-perl (= 0.018), libdigest-md5-perl (= 2.58), libdigest-perl (= 1.20), libdigest-sha-perl (= 6.02), libencode-perl (= 3.17), libexperimental-perl (= 0.028), libextutils-cbuilder-perl (= 0.280236), libextutils-command-perl (= 7.64), libextutils-install-perl (= 2.20), libextutils-parsexs-perl (= 3.450000), libfile-spec-perl (= 3.8400), libhttp-tiny-perl (= 0.080), libi18n-langtags-perl (= 0.45), libio-compress-base-perl (= 2.106), libio-compress-bzip2-perl (= 2.106), libio-compress-perl (= 2.106), libio-compress-zlib-perl (= 2.106), libio-zlib-perl (= 1.11), libjson-pp-perl (= 4.07000), liblocale-maketext-perl (= 1.31), liblocale-maketext-simple-perl (= 0.21.01), libmath-bigint-perl (= 1.999830), libmath-complex-perl (= 1.5902), libmime-base64-perl (= 3.16), libmodule-corelist-perl (= 5.20220520), libmodule-load-conditional-perl (= 0.74), libmodule-load-perl (= 0.36), libmodule-metadata-perl (= 1.000037), libnet-perl (= 1:3.14), libnet-ping-perl (= 2.74), libparams-check-perl (= 0.38), libparent-perl (= 0.238), libparse-cpan-meta-perl (= 2.150010), libperl-ostype-perl (= 1.010), libpod-escapes-perl (= 1.07), libpod-simple-perl (= 3.43), libstorable-perl (= 3.26), libsys-syslog-perl (= 0.36), libtest-harness-perl (= 3.44), libtest-simple-perl (= 1.302190), libtest-tester-perl (= 1.302190), libtest-use-ok-perl (= 1.302190), libtext-balanced-perl (= 2.04), libthread-queue-perl (= 3.14), libthreads-perl (= 2.27), libthreads-shared-perl (= 1.64), libtime-hires-perl (= 1.9770), libtime-local-perl (= 1.3000), libtime-piece-perl (= 1.3401), libunicode-collate-perl (= 1.31), libversion-perl (= 1:0.9929), libversion-requirements-perl, podlators-perl (= 4.14)
+Pre-Depends: dpkg (>= 1.17.17)
+Depends: perl-base (= 5.36.0-7+deb12u1), perl-modules-5.36 (>= 5.36.0-7+deb12u1), libperl5.36 (= 5.36.0-7+deb12u1)
+Recommends: netbase
+Suggests: perl-doc, libterm-readline-gnu-perl | libterm-readline-perl-perl, make, libtap-harness-archive-perl
+Conflicts: libjson-pp-perl (<< 2.27200-2)
+Breaks: apt-show-versions (<< 0.22.10), libdist-inkt-perl (<< 0.024-5), libmarc-charset-perl (<< 1.35-3), libperl-dev (<< 5.24.0~), perl-doc (<< 5.36.0-1), perl-modules-5.22, perl-modules-5.24, perl-modules-5.26 (<< 5.26.2-5)
+Replaces: perl-base (<< 5.36.0-2), perl-modules (<< 5.22.0~)
+Filename: pool/main/p/perl/perl_5.36.0-7+deb12u1_amd64.deb
+Size: 238732
+MD5sum: 40c9e3ab40e8ffed93cf9e75b7ee9c5f
+SHA1: 33742573c6f4d5610343395a850cdd2f8ee47b81
+SHA256: 95224197cc1275ee3e625be4522f9d03f8fea3bd7a5d7d8f1f55ab914736b404
+SHA512: c67478d797cc03f98f4f93f74f08fba64aba2a0df0df656dd50fe30e3ceb370dad4e5bf3a452009799647a94b834b0b89c3d2f14810025edc6dda394c3006a3b
+Homepage: http://dev.perl.org/perl5/
+Description: Larry Wall's Practical Extraction and Report Language
+ Perl is a highly capable, feature-rich programming language with over
+ 20 years of development. Perl 5 runs on over 100 platforms from
+ portables to mainframes. Perl is suitable for both rapid prototyping
+ and large scale development projects.
+ .
+ Perl 5 supports many programming styles, including procedural,
+ functional, and object-oriented. In addition to this, it is supported
+ by an ever-growing collection of reusable modules which accelerate
+ development. Some of these modules include Web frameworks, database
+ integration, networking protocols, and encryption. Perl provides
+ interfaces to C and C++ for custom extension development.
+
+Package: libpixman-1-0
+Architecture: amd64
+Version: 0.42.2-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: pixman
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1002
+Depends: libc6 (>= 2.29)
+Filename: pool/main/p/pixman/libpixman-1-0_0.42.2-1_amd64.deb
+Size: 545588
+MD5sum: 65313d4125a22ed2ca198dee3fdabdd1
+SHA1: ad4ee58eda4d5a1a34d2f56ff3a8e15e7f528093
+SHA256: 9ed75ef81b6b1eba9e1357f8b0ce01d31112b0e07b2b685bee2cf627a8932892
+SHA512: 7155b3bf6234002288f4e61e9810bd2f72981600a59ba1c1e78a6738dc48e86aeaddb115d8abb17d25e8a160d70e8eabcf8b8365ec613a4c656f494b51b470f4
+Homepage: http://pixman.org/
+Description: pixel-manipulation library for X and cairo
+ A library for manipulating pixel regions -- a set of Y-X banded
+ rectangles, image compositing using the Porter/Duff model
+ and implicit mask generation for geometric primitives including
+ trapezoids, triangles, and rectangles.
+
+Package: libpython3-stdlib
+Architecture: amd64
+Version: 3.11.2-1+b1
+Multi-Arch: same
+Priority: optional
+Section: python
+Source: python3-defaults (3.11.2-1)
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 27
+Depends: libpython3.11-stdlib (>= 3.11.2-1~)
+Filename: pool/main/p/python3-defaults/libpython3-stdlib_3.11.2-1+b1_amd64.deb
+Size: 9312
+MD5sum: 87d30044fe7f9bf187b0fc64da43f518
+SHA1: c2863533ecc1f169e76e8f9028eab894c2fb745c
+SHA256: 4e58891d5c951a1e360ed9eaa814413cb5e84deadce3f08e801ac680434c786e
+SHA512: 3bc55a5a30536b89f6a0bc87cc2db134c532c3bd9828c3cf56fbbd6b56d4a50cdde1c9d803813d1cba3460623f404883e2fcb18c0ada741c9b862608e9f90d38
+Homepage: https://www.python.org/
+Description: interactive high-level object-oriented language (default python3 version)
+ This package contains the majority of the standard library for the Python
+ language (default python3 version).
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version's standard library (currently v3.11).
+
+Package: python3-minimal
+Architecture: amd64
+Version: 3.11.2-1+b1
+Multi-Arch: allowed
+Priority: optional
+Section: python
+Source: python3-defaults (3.11.2-1)
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 111
+Pre-Depends: python3.11-minimal (>= 3.11.2-1~)
+Depends: dpkg (>= 1.13.20)
+Filename: pool/main/p/python3-defaults/python3-minimal_3.11.2-1+b1_amd64.deb
+Size: 26312
+MD5sum: 7da16408b487a394fd646619b08970f9
+SHA1: 3db0ca2922f3e4e750bc9ad1cc7012ee04877a42
+SHA256: 30f9618670e686d781afbfc713eb0830c29d2819e9cb2a0488800dad6bb99faa
+SHA512: 2bb26171235ef7675b6a0170dc330ed72e7b8793ef1ef2d347ee54765cc50b01b3538dd21355b6b6a40f31e40fa431db96b142e8ef38684846c6a580c52d0073
+Homepage: https://www.python.org/
+Description: minimal subset of the Python language (default python3 version)
+ This package contains the interpreter and some essential modules.  It's used
+ in the boot process for some basic tasks.
+ See /usr/share/doc/python3.11-minimal/README.Debian for a list of the modules
+ contained in this package.
+Cnf-Visible-Pkgname: python3
+
+Package: python3
+Architecture: amd64
+Version: 3.11.2-1+b1
+Multi-Arch: allowed
+Priority: optional
+Section: python
+Source: python3-defaults (3.11.2-1)
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 81
+Provides: python3-profiler, python3-supported-max (= 3.11), python3-supported-min (= 3.11)
+Pre-Depends: python3-minimal (= 3.11.2-1+b1)
+Depends: python3.11 (>= 3.11.2-1~), libpython3-stdlib (= 3.11.2-1+b1)
+Suggests: python3-doc (>= 3.11.2-1+b1), python3-tk (>= 3.11.2-1~), python3-venv (>= 3.11.2-1+b1)
+Replaces: python3-minimal (<< 3.1.2-2)
+Filename: pool/main/p/python3-defaults/python3_3.11.2-1+b1_amd64.deb
+Size: 26300
+MD5sum: 48ebc2dc2cb4fa44aaa2780f8141bbe1
+SHA1: 1dd3807ad85a33e039edafc4264d30b9b1c81144
+SHA256: 33f6dafbd1a6902d9063172ec7dbd4b2225e12009e0d7ec5c933a72c2f5f3b74
+SHA512: adafa6d1cadf59cb19cbeb1d865f6d6efd8991b65ee90fa98e9bb4dd3a514baf339f122edb24b5f8a2c370df9f0dc15b2d5220021c01737fa3b6d37624e4bf4e
+Homepage: https://www.python.org/
+Description: interactive high-level object-oriented language (default python3 version)
+ Python, the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version (currently v3.11).
+
+Package: libpython3.11-minimal
+Architecture: amd64
+Version: 3.11.2-6
+Multi-Arch: same
+Priority: optional
+Section: python
+Source: python3.11
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 5198
+Depends: libc6 (>= 2.14), libssl3 (>= 3.0.0)
+Recommends: libpython3.11-stdlib
+Conflicts: binfmt-support (<< 1.1.2)
+Filename: pool/main/p/python3.11/libpython3.11-minimal_3.11.2-6_amd64.deb
+Size: 813112
+MD5sum: 4cecf893cdce6b18801f22fc49abd6c6
+SHA1: ae57d2d7217ee5a25cf4febf447ef42203893178
+SHA256: 6fc5ab5858781ab90c68b4deea09f21871fd7b55dc1a0764ad7116ac4c86574d
+SHA512: e7706a666bf24b87eeeb6ae531f2695c7b47cbb6f54ad1b758922608bb9ce04d57a2d5c8f57b6d366243fea735205989f11aa8e30aacebbdcc1046d092ed888d
+Description: Minimal subset of the Python language (version 3.11)
+ This package contains some essential modules. It is normally not
+ used on it's own, but as a dependency of python3.11-minimal.
+
+Package: libpython3.11-stdlib
+Architecture: amd64
+Version: 3.11.2-6
+Multi-Arch: same
+Priority: optional
+Section: python
+Source: python3.11
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 8323
+Depends: libpython3.11-minimal (= 3.11.2-6), media-types | mime-support, libbz2-1.0, libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi8 (>= 3.4), liblzma5 (>= 5.1.1alpha+20120614), libncursesw6 (>= 6.1), libnsl2 (>= 1.0), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.36.0), libtinfo6 (>= 6), libtirpc3 (>= 1.0.2), libuuid1 (>= 2.20.1)
+Breaks: python3-gdbm (<< 3.9.9-1~)
+Replaces: python3-gdbm (<< 3.9.9-1~)
+Filename: pool/main/p/python3.11/libpython3.11-stdlib_3.11.2-6_amd64.deb
+Size: 1796284
+MD5sum: be7a8b1a2a31df1975766ff1583d536f
+SHA1: e014d02325bb748bb198074a0759b98dc576f1a2
+SHA256: 67eec0eb4df58b93e1bf97c402c2cbeb361bf9c5af44fa3a02ff1c723c791ca2
+SHA512: 6b460dac4344cd1e6711252af2d95794e51b36ffd5aea5a96ff4622c31be8960d6216b62ac11e5428856989f58720e5a170dca6f9ffe51ec014d54a5ae7a5eab
+Description: Interactive high-level object-oriented language (standard library, version 3.11)
+ Python is a high-level, interactive, object-oriented language. Its 3.11 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains Python 3.11's standard library. It is normally not
+ used on its own, but as a dependency of python3.11.
+
+Package: python3.11-minimal
+Architecture: amd64
+Version: 3.11.2-6
+Multi-Arch: allowed
+Priority: optional
+Section: python
+Source: python3.11
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 6761
+Pre-Depends: libc6 (>= 2.35)
+Depends: libpython3.11-minimal (= 3.11.2-6), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Recommends: python3.11
+Suggests: binfmt-support
+Conflicts: binfmt-support (<< 1.1.2)
+Filename: pool/main/p/python3.11/python3.11-minimal_3.11.2-6_amd64.deb
+Size: 2064032
+MD5sum: 6881d05e51cb8f3b7fd989c88c1de705
+SHA1: 3ab21ad0d6ace5485c68d5a2e73262e4837c9397
+SHA256: a72247ba64bcd1d0ace2ea8eefd7bcfaca84204def9495269526c25dd9fddc0c
+SHA512: aba94b25c5c495b1c2e6cb74157a618a7e76f6556db25969e9678f76e8c41d24e60ed1e922898edc5ecd087e2a3fe2cb456709dc66116b1bbd4fa11afeea8535
+Description: Minimal subset of the Python language (version 3.11)
+ This package contains the interpreter and some essential modules.  It can
+ be used in the boot process for some basic tasks.
+ See /usr/share/doc/python3.11-minimal/README.Debian for a list of the modules
+ contained in this package.
+Cnf-Visible-Pkgname: python3.11
+
+Package: python3.11
+Architecture: amd64
+Version: 3.11.2-6
+Multi-Arch: allowed
+Priority: optional
+Section: python
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 648
+Depends: python3.11-minimal (= 3.11.2-6), libpython3.11-stdlib (= 3.11.2-6), media-types | mime-support
+Recommends: ca-certificates
+Suggests: python3.11-venv, python3.11-doc, binutils
+Breaks: python3-all (<< 3.6.5~rc1-1), python3-dev (<< 3.6.5~rc1-1), python3-venv (<< 3.6.5-2)
+Filename: pool/main/p/python3.11/python3.11_3.11.2-6_amd64.deb
+Size: 572416
+MD5sum: eb003e0410ccd5d285a69236294065d9
+SHA1: e91c4ceffb847155e860490b9b6ed81b2db85a25
+SHA256: 9d1d4ba9ac38a7ae48567bfbd0bec88e02a5ccd941a48a76709a131197ea6570
+SHA512: d96013b26513195ff7e9cf3d45417ed1704a875ef8bdab8ae852ae4c7773cde68ce638c050fbf777bdb28fa228d7637ead3bf9d19f546589d7786c02732e131c
+Description: Interactive high-level object-oriented language (version 3.11)
+ Python is a high-level, interactive, object-oriented language. Its 3.11 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+
+Package: librtmp1
+Architecture: amd64
+Version: 2.4+20151223.gitfa8646d.1-2+b2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: rtmpdump (2.4+20151223.gitfa8646d.1-2)
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 146
+Depends: libc6 (>= 2.14), libgmp10, libgnutls30 (>= 3.6.14), libhogweed6, libnettle8, zlib1g (>= 1:1.1.4)
+Filename: pool/main/r/rtmpdump/librtmp1_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb
+Size: 60824
+MD5sum: d757abb668fc1ee0d9488805bfb4371e
+SHA1: 529016adaf5f7b70271308d4a50070add2c10514
+SHA256: e1f69020dc2c466e421ec6a58406b643be8b5c382abf0f8989011c1d3df91c87
+SHA512: d7a98680503ebb035d562e400a4a57eb68dd2226339d1e549029b69f2bf2ca5608c9cf5f5213616c4c441146b480d69c8f051e3886dd556946cc347c24c65b57
+Homepage: http://rtmpdump.mplayerhq.hu/
+Description: toolkit for RTMP streams (shared library)
+ A small dumper for media content streamed over the RTMP protocol (like BBC's
+ iPlayer high quality streams). Supplying an RTMP URL will result in a dumped
+ flv file, which can be played/transcoded with standard tools.
+ .
+ This package contains the shared libraries, header files needed by
+ programs that want to use librtmp.
+
+Package: shim-helpers-amd64-signed
+Architecture: amd64
+Version: 1+15.7+1
+Built-Using: shim (= 15.7-1)
+Priority: optional
+Section: admin
+Maintainer: Debian EFI team <debian-efi@lists.debian.org>
+Installed-Size: 932
+Depends: shim-unsigned (>= 15.7-1)
+Conflicts: shim (<< 15+1533136590.3beb971-3~)
+Breaks: shim-signed (<< 1.29)
+Replaces: shim (<< 15+1533136590.3beb971-3~), shim-signed (<< 1.29)
+Filename: pool/main/s/shim-helpers-amd64-signed/shim-helpers-amd64-signed_1+15.7+1_amd64.deb
+Size: 301512
+MD5sum: 5fc737504651ec2d22cd0e425546b6b1
+SHA1: 8bb5218bc53b4d562821d5a7aa005dc07f68a586
+SHA256: 81218cec1bacf045a30c8215e92c433b53bc51f9be9010baba4ffd71093437f3
+SHA512: e0e075d746b24b240042d59a0f0db2155d3f1f1ff729d63a12b2852a1b54ee1e557f00d8f80a3f075e4786c1e6e752748d266a20fce0c9bd1f2bef47697e2e01
+Description: boot loader to chain-load signed boot loaders (signed by Debian)
+ This package provides a minimalist boot loader which allows verifying
+ signatures of other UEFI binaries against either the Secure Boot DB/DBX or
+ against a built-in signature database.  Its purpose is to allow a small,
+ infrequently-changing binary to be signed by the UEFI CA, while allowing
+ an OS distributor to revision their main bootloader independently of the CA.
+ .
+ This package contains the MOK manager and fall-back manager signed by the
+ Debian UEFI CA to be used by shim-signed.
+
+Package: shim-signed-common
+Architecture: all
+Version: 1.39+15.7-1
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: shim-signed (1.39)
+Maintainer: Debian EFI Team <debian-efi@lists.debian.org>
+Installed-Size: 47
+Depends: debconf (>= 0.5) | debconf-2.0, mokutil
+Breaks: shim-signed (<< 1.32+15+1533136590.3beb971-5)
+Replaces: shim-signed (<< 1.32+15+1533136590.3beb971-5)
+Filename: pool/main/s/shim-signed/shim-signed-common_1.39+15.7-1_all.deb
+Size: 12796
+MD5sum: f57c0d2a27eda61b85fc290a3f1ec83e
+SHA1: 076795b361df29c9f454bb31d540ad24623031df
+SHA256: 77d7f15eb590b17296abf3a2fb5638dd3661409a081994683f92b254f551fbe5
+SHA512: dc1ef0a61ff6e5972ac3c4da1d31729fc36e08b075eeb7d53a725aa6e9527d59cf1411638494fe921f774752b4ac48e298c5467ef91763ad0149e127b20a1d96
+Description: Secure Boot chain-loading bootloader (common helper scripts)
+ This package provides a minimalist boot loader which allows verifying
+ signatures of other UEFI binaries against either the Secure Boot DB/DBX or
+ against a built-in signature database.  Its purpose is to allow a small,
+ infrequently-changing binary to be signed by the UEFI CA, while allowing
+ an OS distributor to revision their main bootloader independently of the CA.
+ .
+ This package contains common helper scripts for all versions of the
+ shim-signed package.
+
+Package: shim-signed
+Architecture: amd64
+Version: 1.39+15.7-1
+Built-Using: shim (= 15.7-1)
+Multi-Arch: same
+Priority: optional
+Section: utils
+Source: shim-signed (1.39)
+Maintainer: Debian EFI Team <debian-efi@lists.debian.org>
+Installed-Size: 949
+Depends: shim-signed-common (>= 1.39), grub-efi-amd64-bin, shim-helpers-amd64-signed (>= 1+15.4+2), grub2-common (>= 2.06-6)
+Recommends: secureboot-db
+Filename: pool/main/s/shim-signed/shim-signed_1.39+15.7-1_amd64.deb
+Size: 325324
+MD5sum: 85400346e2478ad4781906fe79c61d79
+SHA1: 7de4352df2c7a41321591930fe2535c03e7659d9
+SHA256: 37cd33aa551b396d2c3d6e23d774fd87d4470ece9dbc627e292a27c7518012ae
+SHA512: ec0182a37b8eee364a68ba34888d0ffad60323c7f3b7fc340a83685ef64f744a814adf1777ce0d18d30230d32910137175d739794cd2fefa5927a13dcb235c26
+Description: Secure Boot chain-loading bootloader (Microsoft-signed binary)
+ This package provides a minimalist boot loader which allows verifying
+ signatures of other UEFI binaries against either the Secure Boot DB/DBX or
+ against a built-in signature database.  Its purpose is to allow a small,
+ infrequently-changing binary to be signed by the UEFI CA, while allowing
+ an OS distributor to revision their main bootloader independently of the CA.
+ .
+ This package contains the version of the bootloader binary signed by the
+ Microsoft UEFI CA.
+
+Package: shim-unsigned
+Architecture: amd64
+Version: 15.7-1
+Priority: optional
+Section: admin
+Source: shim
+Maintainer: Debian EFI team <debian-efi@lists.debian.org>
+Installed-Size: 1862
+Conflicts: shim (<< 15+1533136590.3beb971-3~)
+Replaces: shim (<< 15+1533136590.3beb971-3~)
+Filename: pool/main/s/shim/shim-unsigned_15.7-1_amd64.deb
+Size: 435944
+MD5sum: 1a82f84d62edda03150409ae62c9b7ab
+SHA1: f1bf794faeb76918fcb11d8cdbee2e498a7caacc
+SHA256: a8a626253f3fdebe86d0cf185a10f475402ce5a23dfe0cceee91e5e94df4dbd3
+SHA512: db2402c857f365781927f0d16381de46bba8219e5a93d962e5acb89b5e718f134e3b77f31c299e4812c78a3d778851c19183a00c80e27ad5f30b6d32c5153154
+Description: boot loader to chain-load signed boot loaders under Secure Boot
+ This package provides a minimalist boot loader which allows verifying
+ signatures of other UEFI binaries against either the Secure Boot DB/DBX or
+ against a built-in signature database.  Its purpose is to allow a small,
+ infrequently-changing binary to be signed by the UEFI CA, while allowing
+ an OS distributor to revision their main bootloader independently of the CA.
+
+Package: libsqlite3-0
+Architecture: amd64
+Version: 3.40.1-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: sqlite3
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 1682
+Depends: libc6 (>= 2.34)
+Breaks: crowdsec (<< 1.4), python-migrate (<< 0.11.0-4~), python3-migrate (<< 0.11.0-4~)
+Filename: pool/main/s/sqlite3/libsqlite3-0_3.40.1-2_amd64.deb
+Size: 837376
+MD5sum: e022be8587bf3fe6303df0212b6f9541
+SHA1: b7a5c4685ef74d45c1f9d00b303bcb3dfba4fff6
+SHA256: a8b11a1664a998cc2499fb04327d1f6c4e8f77b78ea8b6f8418d96fc54e3731f
+SHA512: a33807bf3a14abb5606dfa8ced87c68b4b2ccb43b1bf9ec35b968aca4d2fe18ef2a6adced7b37fb119dd85057560cc598d5abcb8f44fe6dca82c223f06fb2f0e
+Homepage: https://www.sqlite.org/
+Description: SQLite 3 shared library
+ SQLite is a C library that implements an SQL database engine.
+ Programs that link with the SQLite library can have SQL database
+ access without running a separate RDBMS process.
+
+Package: ucf
+Architecture: all
+Version: 3.0043+nmu1
+Multi-Arch: foreign
+Priority: standard
+Section: utils
+Maintainer: Manoj Srivastava <srivasta@debian.org>
+Installed-Size: 214
+Depends: debconf (>= 0.5) | debconf-2.0, sensible-utils
+Filename: pool/main/u/ucf/ucf_3.0043+nmu1_all.deb
+Size: 55212
+MD5sum: 976855943a3b5a70e89bb8a0e14144bf
+SHA1: 253361a99af14458a32527d38e1e058c6dd8fa75
+SHA256: 912d4b869dda7d58914dc89bd504c892d5c50c6379e58a32dc787bb4c27ef02a
+SHA512: 395820f3633f3e522fce84db242696633ec533b50f4a63141fb21aec432847f4079652809ad39eb8704016dc5137ef838dd3dec21badb6bd0977f3b2ca8630d9
+Description: Update Configuration File(s): preserve user changes to config files
+ Debian policy mandates that user changes to configuration files must be
+ preserved during package upgrades. The easy way to achieve this behavior
+ is to make the configuration file a 'conffile', in which case dpkg
+ handles the file specially during upgrades, prompting the user as
+ needed.
+ .
+ This is appropriate only if it is possible to distribute a default
+ version that will work for most installations, although some system
+ administrators may choose to modify it. This implies that the
+ default version will be part of the package distribution, and must
+ not be modified by the maintainer scripts during installation (or at
+ any other time).
+ .
+ This script attempts to provide conffile-like handling for files that
+ may not be labelled conffiles, and are not shipped in a Debian package,
+ but handled by the postinst instead. This script allows one to
+ maintain files in /etc, preserving user changes and in general
+ offering the same facilities while upgrading that dpkg normally
+ provides for 'conffiles'.
+ .
+ Additionally, this script provides facilities for transitioning a
+ file that had not been provided with conffile-like protection to come
+ under this schema, and attempts to minimize questions asked at
+ installation time. Indeed, the transitioning facility is better than the
+ one offered by dpkg while transitioning a file from a non-conffile to
+ conffile status.
+
+Package: usrmerge
+Architecture: all
+Version: 37~deb12u1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Maintainer: Marco d'Itri <md@linux.it>
+Installed-Size: 40
+Provides: usr-is-merged
+Depends: perl:any, libfile-find-rule-perl
+Conflicts: acl (<< 2.2.52-3~), arptables (<< 0.0.4+snapshot20181021-1~), coreutils (<< 8.24-1~), cruft (<< 0.9.44~), cryptsetup (<< 2:1.7.0-1~), davfs2 (<< 1.5.2-1.2~), debianutils (<< 4.5~), dhcpcd (<< 1:5~), ebtables (<< 2.0.10.4+snapshot20181205-1~), elvis-tiny (<< 1.4-24~), kbd (<< 2.0.4-4~), ksh (<< 93u+20120801-3.1~), less (<< 481-2~), libbrlapi-dev (<< 5.3.1-1~), libc-bin (<< 2.36-9~), libc0.1 (<< 2.35-4), libc0.3 (<< 2.35-4), libc6 (<< 2.35-4), libc6.1 (<< 2.35-4), libdm0-dev, libjson-c-dev (<< 0.12.1-1.1~), libparted1.8-10 (<< 1.8.8.git.2008.03.24-11.2~), libpng12-0 (<< 1.2.54-6~), libusb-0.1-4 (<< 2:0.1.12-28~), lustre-utils (<< 1.8.5+dfsg-3.2~), mksh (<< 52b-1~), molly-guard (<< 0.7.1+exp1~), musl-dev (<< 1.1.9-1.1~), nano (<< 2.3.99pre3-1~), open-iscsi (<< 2.0.873+git0.3b4b4500-13~), open-vm-tools (<< 2:10.0.5-3227872-2~), policycoreutils (<< 2.4-4~), safe-rm (<< 0.12-6~), tcsh (<< 6.18.01-4~), vsearch (<< 1.9.5-2~), xfsdump (<< 3.1.6+nmu1~), xfslibs-dev (<< 4.9.0+nmu1~), yp-tools (<< 3.3-5~), zsh (<< 5.2-4~)
+Breaks: cruft-ng (<< 0.4.4~), initramfs-tools (<< 0.121~)
+Filename: pool/main/u/usrmerge/usrmerge_37~deb12u1_all.deb
+Size: 13336
+MD5sum: efc86a3eb97578099b41762417571d7b
+SHA1: 1ed6ba7b8c3ae56dff1a8f1e17fd0762d9501602
+SHA256: 8a25318213244f075b56363408c87a519ed8cef24b270c3d045ef35d695de13a
+SHA512: 1296789e538cfa675d213760659b8c85a404f9b0bb8160df5f9272e931da5bf29120bc7b771d624d0d16e11dbc1d16fb68f199835bd603a1e213ed1dcf23e5e6
+Homepage: https://wiki.debian.org/UsrMerge
+Description: Convert the system to the merged /usr directories scheme
+ This package will automatically convert the system to the merged
+ /usr directory scheme, in which the /{bin,sbin,lib}/ directories are
+ symlinked to their counterparts in /usr/.
+ .
+ There is no automatic method to restore the precedent configuration, so
+ there is no going back once this package has been installed.
+
+Package: wireless-regdb
+Architecture: all
+Version: 2022.06.06-1
+Multi-Arch: foreign
+Priority: optional
+Section: net
+Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
+Installed-Size: 36
+Filename: pool/main/w/wireless-regdb/wireless-regdb_2022.06.06-1_all.deb
+Size: 13132
+MD5sum: 37d170118893766117c819d37663646b
+SHA1: 64caa7fd64f7af7d4d7ee8c8ac2e1abb670aa0d3
+SHA256: cf87bff643b23781c20028713e217291911211b262909bbdb9cf8b87c71817a1
+SHA512: f6064ca8fe5526b761387b918eb3f4602cedcb78dd128e311da05c75d3432ccfe0f2dfa981167f4c3f8f4076d579f41fa404072e47bc68359dc3ba4a3b0b886b
+Homepage: https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb
+Description: wireless regulatory database for Linux
+ This package provides a machine-readable database of legal
+ regulations on radio emissions that affect use of wireless networking.
+ The Linux kernel and drivers use this to maintain compliance with
+ those regulations.
+
+Package: xfsprogs
+Architecture: amd64
+Version: 6.1.0-1
+Priority: optional
+Section: admin
+Maintainer: XFS Development Team <linux-xfs@vger.kernel.org>
+Installed-Size: 3444
+Provides: fsck-backend
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.34), libdevmapper1.02.1 (>= 2:1.02.20), libedit2 (>= 2.11-20080614-0), libicu72 (>= 72.1~rc-1~), libinih1 (>= 53), liburcu8 (>= 0.13.0), libuuid1 (>= 2.16), python3:any
+Suggests: xfsdump, acl, attr, quota
+Breaks: xfsdump (<< 3.0.0)
+Replaces: xfsdump (<< 3.0.0)
+Filename: pool/main/x/xfsprogs/xfsprogs_6.1.0-1_amd64.deb
+Size: 992260
+MD5sum: e181912df9f6343c10eb635db5469747
+SHA1: 6fcda68c9d956eb01b4e318c56424899864efe22
+SHA256: e2d2a60dd29d568b5724b66d9ff864305cec61a15e6ba842079398524e1c5718
+SHA512: 426b9e57aedf7f0dfb617a093628a20f7ab5fc1bdfe3ef6cf483abb2d234a608145db075cae03d275a92560f6f85fb680ca842709312af7288a7453707e55a28
+Homepage: https://xfs.wiki.kernel.org/
+Description: Utilities for managing the XFS filesystem
+ A set of commands to use the XFS filesystem, including mkfs.xfs.
+ .
+ XFS is a high performance journaling filesystem which originated
+ on the SGI IRIX platform.  It is completely multi-threaded, can
+ support large files and large filesystems, extended attributes,
+ variable block sizes, is extent based, and makes extensive use of
+ Btrees (directories, extents, free space) to aid both performance
+ and scalability.
+ .
+ Refer to the documentation at https://xfs.wiki.kernel.org/
+ for complete details.
+
+Package: xkb-data
+Architecture: all
+Version: 2.35.1-1
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xkeyboard-config
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 6925
+Breaks: libx11-6 (<< 2:1.4.3), x11-xkb-utils (<< 7.7+5)
+Filename: pool/main/x/xkeyboard-config/xkb-data_2.35.1-1_all.deb
+Size: 763516
+MD5sum: b5a8882c83ed9fd9aa4561ffdb6ff816
+SHA1: 2b0ee0eb6f0afe9e9d87273b215ff5fad8b8dba5
+SHA256: 28a79c61b785f403da93af58c39aed13c022032935e3e54362c6707169cfe982
+SHA512: c330e3fa167307048edfed822b4d5432b8d8bf293ba59a47dec5126e80d2b593f4ee28c27b369facc362caa1e420ebae86a774f68664c79b0afc49ab41a47726
+Homepage: https://www.freedesktop.org/Software/XKeyboardConfig
+Description: X Keyboard Extension (XKB) configuration data
+ This package contains configuration data used by the X Keyboard
+ Extension (XKB), which allows selection of keyboard layouts when
+ using a graphical interface.
+ .
+ Every X11 vendor provides its own XKB data files, so keyboard layout
+ designers have to send their layouts to several places.  The
+ xkeyboard-config project has been launched at FreeDesktop in order
+ to provide a central repository that could be used by all vendors.
+
